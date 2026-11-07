@@ -1,0 +1,1563 @@
+<title>Abhishek Weds Ekta</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Shubh Vivah of Abhishek Mishra and Ekta Pathak, 28 November to 4 December 2026, Bhadohi and Lucknow. Read it in Hindi, English, Bengali, Gujarati, Marwadi or Awadhi.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Imperial+Script&family=Noto+Serif+Bengali:wght@400;700&family=Noto+Serif+Gujarati:wght@400;700&family=Rozha+One&family=Tiro+Bangla:ital@0;1&family=Tiro+Devanagari+Hindi:ital@0;1&family=Tiro+Devanagari+Sanskrit&display=swap">
+<!-- Laila Bold, cut down to the single ॐ glyph, for the Om emblem on the first page -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Laila:wght@700&text=%E0%A5%90&display=swap">
+<style>
+/* Layout: one portrait palace doorway (an ogee arch, ~9:16) centred on a jaali-patterned ground.
+   A language plaque greets the guest first; the whole invitation then plays in that one language.
+   Scenes play inside the arch like a film; doors with a wax seal open onto it. Single, deliberate dark royal look. */
+:root{
+  --night:#1a040a;      /* outer ground */
+  --maroon:#4a0c1b;     /* stage velvet */
+  --gold:#d8a54b;       /* main gold */
+  --gold-hi:#f8e4aa;    /* gold highlight / headings */
+  --gold-lo:#8d5f22;    /* antique gold lines */
+  --ivory:#f7ecd6;      /* running text */
+  --ivory-dim:#cdb894;  /* secondary text */
+  --leaf:#3a7a45;       /* mango leaf accent */
+  --f-display:"Cinzel","Trajan Pro",Georgia,serif;
+  --f-body:"Cormorant Garamond",Garamond,Georgia,serif;
+  --f-script:"Imperial Script","Snell Roundhand","Apple Chancery",cursive;
+  --f-hi:"Tiro Devanagari Hindi","Noto Serif Devanagari",Mangal,"Nirmala UI",serif;
+  --f-hi-display:"Rozha One","Tiro Devanagari Hindi",Mangal,"Nirmala UI",serif;
+  --f-sa:"Tiro Devanagari Sanskrit","Tiro Devanagari Hindi",Mangal,"Nirmala UI",serif;
+  --f-bn:"Tiro Bangla","Noto Serif Bengali",Vrinda,"Nirmala UI",serif;
+  --f-bn-display:"Noto Serif Bengali","Tiro Bangla",Vrinda,"Nirmala UI",serif;
+  --f-gu:"Noto Serif Gujarati",Shruti,"Nirmala UI",serif;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;background:var(--night);color:var(--ivory);font-family:var(--f-body);overflow:hidden;-webkit-tap-highlight-color:transparent}
+.defs{position:absolute;width:0;height:0;overflow:hidden}
+
+.viewport{position:fixed;inset:0;display:flex;justify-content:center;
+  background:
+    radial-gradient(ellipse 70% 60% at 50% 45%, rgba(122,20,40,.5), transparent 72%),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Cg fill='none' stroke='%23d8a54b' stroke-opacity='.10'%3E%3Cpath d='M28 6c5 8 11 14 22 22-11 8-17 14-22 22-5-8-11-14-22-22 11-8 17-14 22-22z'/%3E%3Ccircle cx='28' cy='28' r='5'/%3E%3Ccircle cx='0' cy='0' r='7'/%3E%3Ccircle cx='56' cy='0' r='7'/%3E%3Ccircle cx='0' cy='56' r='7'/%3E%3Ccircle cx='56' cy='56' r='7'/%3E%3C/g%3E%3C/svg%3E"),
+    var(--night)}
+
+.stage{position:relative;height:100%;width:min(100%, 60vh);width:min(100%, 60dvh);
+  container-type:size;overflow:hidden;isolation:isolate;
+  --u:min(1cqw, .5625cqh);
+  /* Script faces for the chosen language (Devanagari by default; Bengali and Gujarati swap below) */
+  --f-loc:var(--f-hi);--f-loc-d:var(--f-hi-display);--f-loc-sa:var(--f-sa);--w-loc-d:400;
+  background:radial-gradient(ellipse 95% 60% at 50% 42%, #631427 0%, var(--maroon) 48%, #22050d 100%);
+  user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;
+  box-shadow:0 0 0 1px rgba(216,165,75,.28), 0 0 80px rgba(0,0,0,.65)}
+.stage[data-script="bn"]{--f-loc:var(--f-bn);--f-loc-d:var(--f-bn-display);--f-loc-sa:var(--f-bn);--w-loc-d:700}
+.stage[data-script="gu"]{--f-loc:var(--f-gu);--f-loc-d:var(--f-gu);--f-loc-sa:var(--f-gu);--w-loc-d:700}
+.stage[data-script="bn"],.stage[data-script="gu"]{--om-shift:.1em}
+.stage::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 48 48'%3E%3Cg fill='none' stroke='%23d8a54b' stroke-opacity='.07'%3E%3Cpath d='M24 4c5 7 10 12 20 20-10 8-15 13-20 20-5-7-10-12-20-20 10-8 15-13 20-20z'/%3E%3Ccircle cx='24' cy='24' r='4'/%3E%3C/g%3E%3C/svg%3E");background-size:48px 48px}
+.stage::after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:radial-gradient(ellipse at 50% 48%, transparent 52%, rgba(10,1,4,.6))}
+.stage p,.stage h1,.stage h2,.stage h3{margin:0}
+
+.bg-mandala{position:absolute;left:50%;top:52%;width:calc(var(--u)*130);height:calc(var(--u)*130);transform:translate(-50%,-50%);opacity:.07;z-index:1;pointer-events:none}
+#frame{position:absolute;inset:0;width:100%;height:100%;z-index:2;pointer-events:none}
+.scenes{position:absolute;inset:0;z-index:3}
+#toran{position:absolute;top:env(safe-area-inset-top,0px);left:0;z-index:11;pointer-events:none;overflow:visible}
+#fx{position:absolute;inset:0;width:100%;height:100%;z-index:12;pointer-events:none}
+
+/* ---------- Scenes ---------- */
+.scene{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;justify-content:safe center;
+  gap:calc(var(--u)*2.2);text-align:center;
+  padding-block:calc(env(safe-area-inset-top,0px) + var(--u)*25) calc(env(safe-area-inset-bottom,0px) + var(--u)*21);
+  padding-left:max(16px, env(safe-area-inset-left,0px), calc(var(--u)*10));
+  padding-right:max(16px, env(safe-area-inset-right,0px), calc(var(--u)*10));
+  opacity:0;visibility:hidden;transition:opacity .8s ease, visibility 0s linear .8s}
+.scene.active{opacity:1;visibility:visible;transition:opacity .8s ease .15s}
+
+.rv{opacity:0}
+.write{opacity:0}
+.scene.active .rv{animation:rise 1s cubic-bezier(.2,.7,.2,1) var(--d,0s) both}
+.scene.active .rv.bloom{animation:bloom 1.4s cubic-bezier(.2,.7,.2,1) var(--d,0s) both}
+.scene.active .rv.gold-text{animation:rise 1s cubic-bezier(.2,.7,.2,1) var(--d,0s) both, shimmer 6s linear infinite}
+.scene.active .write{animation:write 2.1s cubic-bezier(.55,.1,.25,1) var(--d,0s) both, shimmer 6s linear infinite}
+.stage.is-paused .scene.active .rv,.stage.is-paused .scene.active .write{animation-play-state:paused}
+
+.gold-text{background:linear-gradient(100deg,var(--gold) 0%,var(--gold-hi) 12%,var(--gold) 25%,var(--gold-lo) 37%,var(--gold) 50%,var(--gold-hi) 62%,var(--gold) 75%,var(--gold-lo) 87%,var(--gold) 100%);
+  background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;animation:shimmer 6s linear infinite}
+
+/* Shared text roles (Latin values here; Indic scripts are tuned in the block further down) */
+.eyebrow{font-family:var(--f-display);font-size:calc(var(--u)*2.8);letter-spacing:.26em;text-transform:uppercase;color:var(--gold);line-height:1.6}
+.disp{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*5);letter-spacing:.06em;line-height:1.3;padding-inline:.1em;text-wrap:balance}
+.line{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*4.5);line-height:1.35;color:var(--ivory);max-width:32ch;text-wrap:balance}
+.line.dim{color:var(--ivory-dim)}
+.line.small{font-size:calc(var(--u)*3.9);color:var(--ivory-dim)}
+.orn{width:calc(var(--u)*56);max-width:80%;height:calc(var(--u)*5.6);color:var(--gold);flex:none}
+
+/* 1 · Mangalacharan */
+.mandala-wrap{position:relative;width:calc(var(--u)*56);max-width:100%;aspect-ratio:1;display:grid;place-items:center;flex:none}
+.mandala{position:absolute;inset:0;width:100%;height:100%}
+.m-out{animation:spin 90s linear infinite}
+.m-in{animation:spin 60s linear infinite reverse}
+.m-core{animation:spin 40s linear infinite}
+.mandala g,.bg-mandala g{transform-box:fill-box;transform-origin:center}
+/* Om emblem: bold traditional ॐ (Laila; Bengali and Gujarati use their own Om in their script), embossed gold */
+.om{position:relative;font-family:"Laila",var(--f-loc-d);font-weight:700;font-size:calc(var(--u)*25);line-height:1.5;padding:.1em .16em 0;
+  transform:translateY(var(--om-shift,.15em));   /* sets the glyph's ink on the medallion's centre */
+  background:linear-gradient(172deg,#fff7da 0%,#f6d688 28%,#dcaa4e 52%,#a0692a 80%,#c99441 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;
+  -webkit-text-stroke:calc(var(--u)*.28) rgba(110,62,14,.5);
+  filter:drop-shadow(0 calc(var(--u)*.6) calc(var(--u)*.5) rgba(20,0,6,.55)) drop-shadow(0 0 calc(var(--u)*2.6) rgba(248,228,170,.35))}
+.shloka{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*4.7);line-height:1.45;color:var(--gold-hi);text-wrap:balance}
+.trans{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*3.7);color:var(--ivory-dim);max-width:36ch;line-height:1.4;text-wrap:balance}
+
+/* 2 · Blessing */
+.s-bless{gap:calc(var(--u)*1.9)}
+.chaupai{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*5.2);line-height:1.4;color:var(--gold-hi);text-wrap:balance}
+.cite{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*3.6);color:var(--gold);margin-top:calc(var(--u)*-1)}
+.hosts{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*4.8);letter-spacing:.04em;line-height:1.45;color:var(--gold-hi);text-wrap:balance}
+
+/* 3 · Names */
+.s-names{gap:calc(var(--u)*1.4)}
+.person{display:flex;flex-direction:column;align-items:center}
+.name{font-family:var(--f-script);font-weight:400;font-size:calc(var(--u)*18);line-height:1.2;padding:0 .25em}
+.name-sub{font-family:var(--f-display);font-size:calc(var(--u)*2.9);letter-spacing:.18em;text-transform:uppercase;color:var(--gold-hi);margin-top:calc(var(--u)*-2.4)}
+.weds{display:flex;align-items:center;gap:calc(var(--u)*3)}
+.weds::before,.weds::after{content:"";width:calc(var(--u)*12);height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.weds::after{transform:scaleX(-1)}
+.weds .amp{font-family:var(--f-script);font-weight:400;font-size:calc(var(--u)*11);line-height:1;padding:0 .15em}
+.parents{margin-top:calc(var(--u)*1.5)}
+
+/* 4 · Date */
+.date-month,.date-year{font-family:var(--f-display);font-size:calc(var(--u)*5);letter-spacing:.4em;padding-left:.4em;color:var(--gold-hi);line-height:1.2}
+.date-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:calc(var(--u)*3);width:100%;max-width:calc(var(--u)*78)}
+.date-side{font-family:var(--f-display);font-size:calc(var(--u)*3.1);letter-spacing:.16em;border-block:1px solid var(--gold-lo);padding-block:calc(var(--u)*2.4);color:var(--ivory);line-height:1.3}
+.date-day{font-family:var(--f-display);font-weight:700;font-size:calc(var(--u)*21);line-height:1;padding:0 .05em}
+.place{font-family:var(--f-body);font-size:calc(var(--u)*4.6);font-weight:600;color:var(--ivory);line-height:1.3}
+.countdown{display:grid;grid-template-columns:repeat(4,1fr);gap:calc(var(--u)*2.4);width:100%;max-width:calc(var(--u)*76);margin-top:calc(var(--u)*1.5)}
+.cd{border:1px solid rgba(216,165,75,.55);outline:1px solid rgba(216,165,75,.18);outline-offset:3px;padding:calc(var(--u)*2.2) 0 calc(var(--u)*1.8);background:rgba(26,4,10,.4);display:flex;flex-direction:column;align-items:center;gap:2px}
+.cd b{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*7);line-height:1;font-variant-numeric:tabular-nums;color:var(--gold-hi)}
+.cd span{font-family:var(--f-display);font-size:calc(var(--u)*2.2);letter-spacing:.18em;text-transform:uppercase;color:var(--ivory-dim)}
+.cd-done{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*4.4);color:var(--gold-hi)}
+
+/* 5–7 · Ceremonies */
+.s-cer{gap:calc(var(--u)*3.2)}
+.cer-head{display:flex;flex-direction:column;align-items:center;gap:calc(var(--u)*.6)}
+.cer-title{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*7.2);letter-spacing:.03em;line-height:1.15;text-wrap:balance;padding-inline:.05em}
+.days{display:flex;flex-direction:column;gap:calc(var(--u)*2.6);width:100%;max-width:calc(var(--u)*80)}
+.day{display:flex;flex-direction:column}
+.day-h{display:flex;align-items:center;gap:calc(var(--u)*2.2);font-family:var(--f-display);font-size:calc(var(--u)*2.8);letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:calc(var(--u)*.6)}
+.day-h::before,.day-h::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold-lo))}
+.day-h::after{transform:scaleX(-1)}
+.ev{display:grid;grid-template-columns:calc(var(--u)*10) minmax(0,1fr) auto;align-items:center;gap:calc(var(--u)*3);text-align:left;padding-block:calc(var(--u)*1.3);border-bottom:1px solid rgba(216,165,75,.14)}
+.day .ev:last-child{border-bottom:0}
+.ev-ic{width:calc(var(--u)*10);height:calc(var(--u)*10);border-radius:50%;border:1px solid var(--gold-lo);display:grid;place-items:center;color:var(--gold-hi);background:radial-gradient(circle,rgba(216,165,75,.2),rgba(26,4,10,.45));box-shadow:0 0 0 2px rgba(26,4,10,.6),0 0 0 3px rgba(216,165,75,.25)}
+.ev-ic svg{width:62%;height:62%}
+.ev-name{min-width:0;font-family:var(--f-body);font-weight:600;font-size:calc(var(--u)*4.6);line-height:1.2;color:var(--ivory)}
+.ev-time{font-family:var(--f-display);font-size:calc(var(--u)*3.2);color:var(--gold-hi);white-space:nowrap;font-variant-numeric:tabular-nums}
+.ev.is-main .ev-name{color:var(--gold-hi)}
+.ev.is-main .ev-ic{border-color:var(--gold);background:radial-gradient(circle,rgba(248,228,170,.35),rgba(26,4,10,.45))}
+
+/* 8 · Closing */
+.s-close{gap:calc(var(--u)*1.8)}
+.family{font-family:var(--f-script);font-weight:400;font-size:calc(var(--u)*12);line-height:1.25;padding:0 .25em;white-space:nowrap}
+.venues{display:grid;grid-template-columns:1fr 1fr;gap:calc(var(--u)*3);width:100%;max-width:calc(var(--u)*82);margin-top:calc(var(--u)*1)}
+.venue{display:flex;flex-direction:column;align-items:center;gap:calc(var(--u)*.5);padding:calc(var(--u)*4) calc(var(--u)*2) calc(var(--u)*2.6);border:1px solid rgba(216,165,75,.5);background:rgba(26,4,10,.45);color:inherit;text-decoration:none;min-width:0;
+  border-radius:50% 50% 6px 6px / calc(var(--u)*7) calc(var(--u)*7) 6px 6px;transition:border-color .2s, background .2s}
+.venue:hover{border-color:var(--gold-hi);background:rgba(74,12,27,.6)}
+.v-when{font-family:var(--f-display);font-size:calc(var(--u)*2.5);letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
+.v-name{font-family:var(--f-body);font-weight:600;font-size:calc(var(--u)*4.3);line-height:1.15}
+.v-what{font-family:var(--f-body);font-style:italic;font-size:calc(var(--u)*3.4);color:var(--ivory-dim)}
+.v-link{font-family:var(--f-display);font-size:calc(var(--u)*2.4);letter-spacing:.14em;color:var(--gold-hi);text-transform:uppercase;margin-top:calc(var(--u)*.6)}
+.actions{display:flex;gap:calc(var(--u)*3);flex-wrap:wrap;justify-content:center;margin-top:calc(var(--u)*1)}
+.btn{font-family:var(--f-display);font-size:max(11px,calc(var(--u)*2.8));letter-spacing:.14em;text-transform:uppercase;min-height:40px;padding:calc(var(--u)*2.2) calc(var(--u)*5);border:1px solid var(--gold);background:linear-gradient(180deg,rgba(216,165,75,.22),rgba(216,165,75,.06));color:var(--gold-hi);cursor:pointer}
+.btn:hover{background:linear-gradient(180deg,rgba(216,165,75,.35),rgba(216,165,75,.12))}
+.btn.solid{background:linear-gradient(180deg,var(--gold-hi),var(--gold) 55%,var(--gold-lo));color:var(--night);border-color:var(--gold-hi);font-weight:600}
+a.btn{display:inline-flex;align-items:center;text-decoration:none}
+/* Contact and home address pages */
+a.contact{color:inherit;text-decoration:none}
+.s-contact .ev-name{font-size:calc(var(--u)*5.6)}
+.tel{font-size:calc(var(--u)*3.9);letter-spacing:.04em;padding-block:calc(var(--u)*1.6);border-bottom:1px dotted rgba(216,165,75,.45)}
+a.contact:hover .tel,a.contact:focus-visible .tel{color:var(--ivory)}
+.eyebrow.families{font-size:calc(var(--u)*3.6)}
+.s-home{gap:calc(var(--u)*2.2)}
+.home-ic{width:calc(var(--u)*15);height:calc(var(--u)*15)}
+.addr{font-family:var(--f-body);font-size:calc(var(--u)*4.4);line-height:1.6;color:var(--ivory);text-wrap:balance;max-width:calc(var(--u)*82)}
+:focus-visible{outline:2px solid var(--gold-hi);outline-offset:3px}
+
+/* ---------- Diyas ---------- */
+.diya{position:absolute;bottom:calc(env(safe-area-inset-bottom,0px) + var(--u)*5);width:calc(var(--u)*13);z-index:13;pointer-events:none}
+.diya svg{display:block;width:100%;height:auto;overflow:visible}
+.diya-l{left:calc(env(safe-area-inset-left,0px) + var(--u)*7)}
+.diya-r{right:calc(env(safe-area-inset-right,0px) + var(--u)*7);transform:scaleX(-1)}
+.flame{position:absolute;left:94%;bottom:68%;width:calc(var(--u)*2.8);height:calc(var(--u)*6);transform-origin:50% 100%;
+  border-radius:50% 50% 50% 50% / 62% 62% 38% 38%;
+  background:radial-gradient(ellipse at 50% 78%, #fffbe8 0 18%, #ffe07a 32%, #ff9b1f 58%, rgba(255,80,0,0) 76%);
+  animation:flicker 1.4s ease-in-out infinite alternate}
+.flame::after{content:"";position:absolute;left:50%;top:45%;width:calc(var(--u)*14);height:calc(var(--u)*14);transform:translate(-50%,-50%);border-radius:50%;
+  background:radial-gradient(circle, rgba(255,190,90,.38), rgba(255,150,60,.08) 45%, transparent 68%);animation:glow 2.2s ease-in-out infinite alternate}
+
+/* ---------- Chrome: progress, hint, controls ---------- */
+.progress{position:absolute;top:calc(env(safe-area-inset-top,0px) + 7px);left:max(14px, env(safe-area-inset-left,0px));right:max(14px, env(safe-area-inset-right,0px));display:flex;gap:4px;z-index:14;opacity:0;transition:opacity .6s}
+.seg{flex:1;height:2px;background:rgba(248,228,170,.22);border-radius:2px;overflow:hidden}
+.seg i{display:block;height:100%;width:0;background:var(--gold-hi);box-shadow:0 0 6px rgba(248,228,170,.8)}
+.controls{position:absolute;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + var(--u)*4.5);transform:translateX(-50%);display:flex;gap:calc(var(--u)*2.6);z-index:14;opacity:0;pointer-events:none;transition:opacity .6s}
+.ctl{width:max(38px,calc(var(--u)*9.5));height:max(38px,calc(var(--u)*9.5));border-radius:50%;border:1px solid rgba(216,165,75,.6);background:rgba(26,4,10,.6);color:var(--gold-hi);display:grid;place-items:center;cursor:pointer;padding:0}
+.ctl:hover{border-color:var(--gold-hi)}
+.ctl svg{width:46%;height:46%}
+.hint{position:absolute;left:0;right:0;bottom:calc(env(safe-area-inset-bottom,0px) + var(--u)*16);padding-inline:16px;text-align:center;font-family:var(--f-display);font-size:max(10px,calc(var(--u)*2.4));letter-spacing:.2em;text-transform:uppercase;color:var(--ivory-dim);z-index:14;opacity:0;pointer-events:none}
+.stage.started .progress{opacity:1}
+.stage.started .controls{opacity:1;pointer-events:auto}
+.stage.show-hint .hint{animation:hint 7s ease 1.5s both}
+
+/* ---------- Palace doors (cover) ---------- */
+.doors{position:absolute;inset:0;z-index:10;perspective:1500px;perspective-origin:50% 45%;cursor:pointer}
+.doors.await{cursor:default}
+.flash{position:absolute;inset:0;opacity:0;pointer-events:none;background:radial-gradient(circle at 50% 50%, rgba(255,242,205,.95), rgba(255,190,90,.45) 30%, transparent 62%)}
+.door{position:absolute;top:0;bottom:0;width:50%;overflow:hidden;transition:transform 2.4s cubic-bezier(.65,0,.25,1), opacity .9s ease 1.6s;backface-visibility:hidden}
+/* Doors meet with only a faint line, so the painting reads as one; the right door overlaps by 1px so no gap shows */
+.door-l{left:0;transform-origin:0 50%;
+  background:linear-gradient(90deg,#26050e 0%,#4a0e1c 38%,#5c1425 86%,#561322 100%);
+  box-shadow:inset -1px 0 0 rgba(216,165,75,.28), inset -3px 0 6px rgba(0,0,0,.16)}
+.door-r{right:0;width:calc(50% + 1px);transform-origin:100% 50%;
+  background:linear-gradient(270deg,#26050e 0%,#4a0e1c 38%,#5c1425 86%,#561322 100%);
+  box-shadow:inset 1px 0 0 rgba(216,165,75,.28), inset 3px 0 6px rgba(0,0,0,.16)}
+/* The invitation is painted across both doors: each door holds a full-width copy, shows its own half, and swings away with it */
+.door-art{position:absolute;top:0;bottom:0;width:200%;pointer-events:none;transition:opacity .8s ease}
+.door-l .door-art{left:0}
+.door-r .door-art{right:0;width:calc(200% - 2px)}
+.doors.await .door-art{opacity:0;transition:none}
+.door-carve{position:absolute;inset:0;width:100%;height:100%}
+.cover-flow{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;justify-content:safe center;gap:calc(var(--u)*2);text-align:center;
+  padding-block:calc(env(safe-area-inset-top,0px) + var(--u)*22) calc(env(safe-area-inset-bottom,0px) + var(--u)*15);
+  padding-left:max(16px, env(safe-area-inset-left,0px), calc(var(--u)*10));
+  padding-right:max(16px, env(safe-area-inset-right,0px), calc(var(--u)*10))}
+.cover{transition:opacity .6s ease, transform .9s ease}
+.doors.await .cover{opacity:0;visibility:hidden;transform:translateY(calc(var(--u)*3));transition:none}
+#cover .cv-art{opacity:0;pointer-events:none}      /* the live layer only holds the places; the artwork shows on the doors */
+.door-art .cv-ctl{visibility:hidden}               /* the doors only hold the places for the seal and buttons */
+.cv-art{flex:1 1 auto;min-height:0;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:calc(var(--u)*.8)}
+.cv-ctl{flex:none;display:flex;flex-direction:column;align-items:center;gap:calc(var(--u)*1.6)}
+/* Ganesh grows into the height the writing and the seal leave free. Starting 22u down and at most 76u tall,
+   his whole outline (crown, axe, lotus) stays inside the carved arch on the doors. */
+.ganesh-wrap{flex:1 1 0;min-height:calc(var(--u)*30);max-height:calc(var(--u)*76);width:100%;display:grid;place-items:center;margin-bottom:calc(var(--u)*.3)}
+.ganesh-wrap > *{grid-area:1/1}
+.ganesh-wrap::before{content:"";grid-area:1/1;height:80%;aspect-ratio:1;align-self:start;border-radius:50%;background:radial-gradient(circle, rgba(248,228,170,.22), rgba(216,165,75,.08) 45%, transparent 70%);animation:breathe 4s ease-in-out infinite}
+.ganesh{width:100%;height:100%;min-height:0;object-fit:contain;filter:drop-shadow(0 calc(var(--u)*.4) calc(var(--u)*1) rgba(0,0,0,.5))}
+.cover-orn{height:calc(var(--u)*4.4);margin-block:calc(var(--u)*.2)}
+.cover-sh{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*3.4);letter-spacing:.3em;padding-left:.3em;text-transform:uppercase;color:var(--gold-hi);line-height:1.5}
+.cover-names{font-family:var(--f-script);font-weight:400;font-size:calc(var(--u)*14);line-height:1.02;display:flex;flex-direction:column;align-items:center}
+.cover-names span{padding:0 .25em}
+.cover-names .amp{font-size:.55em;line-height:.9}
+.cover-date{font-family:var(--f-display);font-size:calc(var(--u)*2.7);letter-spacing:.16em;color:var(--ivory);line-height:1.6}
+.seal{position:relative;width:calc(var(--u)*15);height:calc(var(--u)*15);border-radius:50%;border:0;padding:0;cursor:pointer;flex:none;
+  display:flex;align-items:center;justify-content:center;gap:.04em;font-family:var(--f-script);font-size:calc(var(--u)*5.4);color:var(--gold-hi);
+  background:radial-gradient(circle at 38% 30%, #a92c43, #701428 55%, #3c0915);
+  box-shadow:inset 0 0 0 calc(var(--u)*.8) rgba(26,4,10,.35), inset 0 0 0 calc(var(--u)*1.1) var(--gold), 0 calc(var(--u)*1.2) calc(var(--u)*3.2) rgba(0,0,0,.6);
+  transition:transform .8s ease, opacity .6s ease}
+.seal i{font-style:normal;font-size:.55em;color:var(--gold)}
+.seal i.dm{width:calc(var(--u)*1.4);height:calc(var(--u)*1.4);margin:0 calc(var(--u)*1.1);background:var(--gold);transform:rotate(45deg)}
+.seal::before{content:"";position:absolute;inset:calc(var(--u)*1.7);border-radius:50%;border:1px dashed rgba(248,228,170,.45)}
+.seal::after{content:"";position:absolute;inset:calc(var(--u)*-1.6);border-radius:50%;box-shadow:0 0 calc(var(--u)*5.5) rgba(248,228,170,.5);animation:pulse 2.6s ease-in-out infinite;pointer-events:none}
+.cover-hint{font-family:var(--f-display);font-size:max(10px,calc(var(--u)*2.6));letter-spacing:.2em;text-transform:uppercase;color:var(--gold-hi);animation:breathe 2.6s ease-in-out infinite;
+  padding:calc(var(--u)*1) calc(var(--u)*3.4);background:rgba(26,4,10,.85);border:1px solid rgba(216,165,75,.35);border-radius:999px}
+.cover-lang{display:inline-flex;align-items:center;gap:calc(var(--u)*1.2);min-height:32px;line-height:1.2;margin-top:calc(var(--u)*-1.6);padding:calc(var(--u)*.8) calc(var(--u)*2.4);border:0;border-radius:999px;background:none;color:var(--ivory-dim);cursor:pointer;
+  font-family:var(--f-display);font-size:max(10px,calc(var(--u)*2.3));letter-spacing:.16em;text-transform:uppercase}
+.cover-lang svg{width:max(14px,calc(var(--u)*3.4));height:max(14px,calc(var(--u)*3.4));flex:none}
+.cover-lang:hover{color:var(--gold-hi)}
+.doors.open{pointer-events:none}
+.doors.open .cover{opacity:0;transform:scale(.97)}
+.doors.open .seal{transform:scale(1.35)}
+.doors.open .flash{animation:flash 2.6s ease-out forwards}
+.doors.open .door-l{transform:rotateY(98deg);opacity:0}
+.doors.open .door-r{transform:rotateY(-98deg);opacity:0}
+
+/* ---------- Language plaque ---------- */
+.lang{position:absolute;inset:0;z-index:21;display:flex;flex-direction:column;align-items:center;justify-content:center;justify-content:safe center;overflow-y:auto;overscroll-behavior:contain;
+  padding-block:calc(env(safe-area-inset-top,0px) + var(--u)*22) calc(env(safe-area-inset-bottom,0px) + var(--u)*16);
+  padding-left:max(16px, env(safe-area-inset-left,0px), calc(var(--u)*8));
+  padding-right:max(16px, env(safe-area-inset-right,0px), calc(var(--u)*8));
+  background:radial-gradient(ellipse 80% 55% at 50% 52%, rgba(20,3,8,.45), transparent 75%);
+  transition:opacity .5s ease}
+.lang.modal{background:rgba(20,3,8,.94)}
+.lang.out{opacity:0;pointer-events:none}
+.lang-x{position:absolute;top:calc(env(safe-area-inset-top,0px) + var(--u)*5);right:max(16px, calc(env(safe-area-inset-right,0px) + var(--u)*5))}
+.lang:not(.modal) .lang-x{display:none}
+.lang-card{display:flex;flex-direction:column;align-items:center;gap:calc(var(--u)*1.5);width:min(100%, calc(var(--u)*78));text-align:center;
+  padding:calc(var(--u)*8) calc(var(--u)*5) calc(var(--u)*5.5);
+  background:radial-gradient(ellipse at 50% 28%, rgba(84,14,30,.97), rgba(26,4,10,.97));
+  border:1px solid var(--gold);outline:1px solid rgba(216,165,75,.35);outline-offset:calc(var(--u)*1);
+  border-radius:50% 50% calc(var(--u)*1.5) calc(var(--u)*1.5) / calc(var(--u)*15) calc(var(--u)*15) calc(var(--u)*1.5) calc(var(--u)*1.5);
+  box-shadow:0 calc(var(--u)*3) calc(var(--u)*10) rgba(0,0,0,.6);
+  animation:rise 1s cubic-bezier(.2,.7,.2,1) .15s both}
+.lang-top{font-family:var(--f-sa);font-size:calc(var(--u)*4.6);color:var(--gold-hi);line-height:1.3}
+.lang-title{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*3.6);letter-spacing:.2em;padding-left:.2em;text-transform:uppercase;line-height:1.4;text-wrap:balance}
+.lang-prompt{font-family:var(--f-hi);font-size:calc(var(--u)*3.9);line-height:1.7;min-height:1.7em;color:var(--ivory-dim);transition:opacity .45s ease, transform .45s ease}
+.lang-prompt[data-script="bn"]{font-family:var(--f-bn)}
+.lang-prompt[data-script="gu"]{font-family:var(--f-gu)}
+.lang-prompt.swap{opacity:0;transform:translateY(calc(var(--u)*1))}
+.lang-grid{display:grid;grid-template-columns:1fr 1fr;gap:calc(var(--u)*2.6);width:100%;margin-top:calc(var(--u)*1)}
+.lang-btn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:calc(var(--u)*.3);min-width:0;min-height:max(52px, calc(var(--u)*15.5));
+  padding:calc(var(--u)*3.2) calc(var(--u)*1.5) calc(var(--u)*2);border:1px solid rgba(216,165,75,.5);background:rgba(26,4,10,.5);color:var(--gold-hi);cursor:pointer;
+  border-radius:50% 50% 6px 6px / calc(var(--u)*6) calc(var(--u)*6) 6px 6px;transition:border-color .2s, background .2s;
+  animation:rise .8s cubic-bezier(.2,.7,.2,1) calc(.55s + var(--i,0)*.09s) both}
+.lang-btn:hover{border-color:var(--gold-hi);background:rgba(74,12,27,.75)}
+.lang-btn.is-current{border-color:var(--gold-hi);box-shadow:inset 0 0 0 1px rgba(248,228,170,.35)}
+.lang-btn.picked{border-color:var(--gold-hi);background:linear-gradient(180deg,rgba(248,228,170,.32),rgba(216,165,75,.1))}
+.ln{font-size:calc(var(--u)*5.2);line-height:1.35}
+.lang-btn[data-script="latn"] .ln{font-family:var(--f-script);font-size:calc(var(--u)*7.6);line-height:1.1}
+.lang-btn[data-script="deva"] .ln{font-family:var(--f-hi-display)}
+.lang-btn[data-script="bn"] .ln{font-family:var(--f-bn-display);font-weight:700}
+.lang-btn[data-script="gu"] .ln{font-family:var(--f-gu);font-weight:700}
+.ll{font-family:var(--f-display);font-size:max(9px,calc(var(--u)*2.2));letter-spacing:.2em;text-transform:uppercase;color:var(--ivory-dim)}
+
+/* ---------- Schedule overlay ---------- */
+.overlay{position:absolute;inset:0;z-index:20;overflow-y:auto;overscroll-behavior:contain;background:rgba(20,3,8,.95);
+  padding-block:calc(env(safe-area-inset-top,0px) + var(--u)*8) calc(env(safe-area-inset-bottom,0px) + var(--u)*8);
+  padding-left:max(16px, env(safe-area-inset-left,0px), calc(var(--u)*7));
+  padding-right:max(16px, env(safe-area-inset-right,0px), calc(var(--u)*7));
+  user-select:text;-webkit-user-select:text}
+.ov-inner{max-width:calc(var(--u)*86);margin:0 auto}
+.ov-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:calc(var(--u)*5)}
+.ov-head h2{font-family:var(--f-display);font-weight:600;font-size:calc(var(--u)*6);line-height:1.2}
+.ov-group{margin-bottom:calc(var(--u)*6)}
+.ov-venue{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px 12px;border-bottom:1px solid var(--gold-lo);padding-bottom:calc(var(--u)*1.6)}
+.ov-venue b{font-family:var(--f-body);font-weight:600;font-size:calc(var(--u)*5);color:var(--ivory)}
+.ov-venue a{font-family:var(--f-display);font-size:calc(var(--u)*2.5);letter-spacing:.14em;text-transform:uppercase;color:var(--gold-hi)}
+.ov-day{font-family:var(--f-display);font-size:calc(var(--u)*2.8);letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin:calc(var(--u)*3.5) 0 calc(var(--u)*1)}
+.ov-ev{display:grid;grid-template-columns:calc(var(--u)*20) minmax(0,1fr);gap:calc(var(--u)*3);align-items:baseline;padding-block:calc(var(--u)*1.4);border-bottom:1px dashed rgba(216,165,75,.2)}
+.ov-ev time{font-family:var(--f-display);font-size:calc(var(--u)*3.1);color:var(--gold-hi);font-variant-numeric:tabular-nums;white-space:nowrap}
+.ov-ev span{font-family:var(--f-body);font-weight:600;font-size:calc(var(--u)*4.4);color:var(--ivory);line-height:1.25}
+
+/* ---------- Indic scripts: same layout, script-appropriate faces, no tracking or capitals ---------- */
+.is-indic .eyebrow{font-family:var(--f-loc);font-size:calc(var(--u)*3.6);letter-spacing:0;text-transform:none;color:var(--gold-hi)}
+.is-indic .disp{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*6.4);letter-spacing:0;line-height:1.4}
+.is-indic .line{font-family:var(--f-loc);font-style:normal;font-size:calc(var(--u)*4.2);line-height:1.6;max-width:30ch}
+.is-indic .line.small{font-size:calc(var(--u)*3.6)}
+.is-indic .shloka{font-family:var(--f-loc-sa);font-style:normal;font-size:calc(var(--u)*4.5);line-height:1.75}
+.is-indic .trans{font-family:var(--f-loc);font-style:normal;font-size:calc(var(--u)*3.6);line-height:1.6;max-width:32ch}
+.is-indic .chaupai{font-family:var(--f-loc);font-style:normal;font-size:calc(var(--u)*4.9);line-height:1.7}
+.is-indic .cite{font-family:var(--f-loc);font-style:normal;font-size:calc(var(--u)*3.2)}
+.is-indic .hosts{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*6);letter-spacing:0;line-height:1.45}
+.is-indic .name{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*13);line-height:1.45;padding:0 .15em}
+.is-indic .name-sub{font-family:var(--f-loc);font-size:calc(var(--u)*4.2);letter-spacing:0;text-transform:none;margin-top:calc(var(--u)*-.6)}
+.is-indic .weds .amp{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*6.6);line-height:1.35}
+.is-indic .date-month{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*6.2);letter-spacing:0;padding-left:0;line-height:1.4}
+.is-indic .date-side{font-family:var(--f-loc);font-size:calc(var(--u)*3.9);letter-spacing:0}
+.is-indic .place{font-family:var(--f-loc);font-weight:400;font-size:calc(var(--u)*4.4)}
+.is-indic .cd span{font-family:var(--f-loc);font-size:calc(var(--u)*3);letter-spacing:0;text-transform:none;color:var(--gold)}
+.is-indic .cd-done{font-family:var(--f-loc);font-style:normal}
+.is-indic .cer-title{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*7);letter-spacing:0;line-height:1.4}
+.is-indic .day-h{font-family:var(--f-loc);font-size:calc(var(--u)*3.4);letter-spacing:0;text-transform:none}
+.is-indic .ev-name{font-family:var(--f-loc);font-weight:400;font-size:calc(var(--u)*4.3);line-height:1.4}
+.is-indic .ev-time{font-family:var(--f-loc);font-size:calc(var(--u)*3.4)}
+.is-indic .family{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*9);line-height:1.45}
+.is-indic .v-when{font-family:var(--f-loc);font-size:calc(var(--u)*3.1);letter-spacing:0;text-transform:none}
+.is-indic .v-name{font-family:var(--f-loc);font-weight:400;font-size:calc(var(--u)*4.1);line-height:1.35}
+.is-indic .v-what{font-family:var(--f-loc);font-style:normal;font-size:calc(var(--u)*3.2);line-height:1.45}
+.is-indic .v-link{font-family:var(--f-loc);font-size:calc(var(--u)*3.1);letter-spacing:0;text-transform:none}
+.is-indic .tel{font-size:calc(var(--u)*4);letter-spacing:.02em}
+.is-indic .s-contact .ev-name{font-size:calc(var(--u)*5.3)}
+.is-indic .eyebrow.families{font-size:calc(var(--u)*4.6)}
+.is-indic .addr{font-family:var(--f-loc);font-size:calc(var(--u)*4.1);line-height:1.75}
+.is-indic .btn{font-family:var(--f-loc);font-weight:400;font-size:max(13px,calc(var(--u)*3.6));letter-spacing:0;text-transform:none}
+.is-indic .hint{font-family:var(--f-loc);font-size:max(12px,calc(var(--u)*3));letter-spacing:0;text-transform:none}
+.is-indic .cover-sh{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*5.2);letter-spacing:0;padding-left:0;text-transform:none;line-height:1.35}
+.is-indic .cover-names{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*11);line-height:1.22}
+.is-indic .cover-date{font-family:var(--f-loc);font-size:calc(var(--u)*3.4);letter-spacing:0}
+.is-indic .seal{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*4.7)}
+.is-indic .cover-hint{font-family:var(--f-loc);font-size:max(12px,calc(var(--u)*3.3));letter-spacing:0;text-transform:none}
+.is-indic .cover-lang{font-family:var(--f-loc);font-size:max(12px,calc(var(--u)*3));letter-spacing:0;text-transform:none}
+.is-indic .ov-head h2{font-family:var(--f-loc-d);font-weight:var(--w-loc-d);font-size:calc(var(--u)*6.4);line-height:1.4}
+.is-indic .ov-venue b{font-family:var(--f-loc);font-weight:400;font-size:calc(var(--u)*4.8)}
+.is-indic .ov-venue a{font-family:var(--f-loc);font-size:calc(var(--u)*3.2);letter-spacing:0;text-transform:none}
+.is-indic .ov-day{font-family:var(--f-loc);font-size:calc(var(--u)*3.5);letter-spacing:0;text-transform:none}
+.is-indic .ov-ev{grid-template-columns:calc(var(--u)*25) minmax(0,1fr)}
+.is-indic .ov-ev time{font-family:var(--f-loc);font-size:calc(var(--u)*3.4)}
+.is-indic .ov-ev span{font-family:var(--f-loc);font-weight:400;font-size:calc(var(--u)*4.3);line-height:1.4}
+
+/* ---------- Keyframes ---------- */
+@keyframes rise{from{opacity:0;transform:translateY(calc(var(--u)*3));filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+@keyframes bloom{from{opacity:0;transform:scale(.8);filter:blur(8px)}to{opacity:1;transform:none;filter:none}}
+@keyframes write{from{opacity:1;clip-path:inset(-40% 100% -40% -10%)}to{opacity:1;clip-path:inset(-40% -10% -40% -10%)}}
+@keyframes shimmer{from{background-position:0% 50%}to{background-position:100% 50%}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes sway{0%,100%{transform:rotate(-3.5deg)}50%{transform:rotate(3.5deg)}}
+@keyframes flicker{0%{transform:translateX(-50%) scale(1,1) rotate(-2deg)}30%{transform:translateX(-50%) scale(.9,1.1) rotate(2.5deg)}60%{transform:translateX(-50%) scale(1.06,.94) rotate(-1deg)}100%{transform:translateX(-50%) scale(.95,1.06) rotate(3deg)}}
+@keyframes glow{from{opacity:.65}to{opacity:1}}
+@keyframes pulse{0%,100%{opacity:.35;transform:scale(.95)}50%{opacity:1;transform:scale(1.05)}}
+@keyframes breathe{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes flash{0%{opacity:0}22%{opacity:1}100%{opacity:0}}
+@keyframes hint{0%{opacity:0}12%,82%{opacity:.85}100%{opacity:0}}
+.strand{animation:sway 4.2s ease-in-out infinite}
+
+@media (prefers-reduced-motion: reduce){
+  .rv,.write{opacity:1!important;animation:none!important;clip-path:none!important;transform:none!important;filter:none!important}
+  .gold-text,.m-out,.m-in,.m-core,.strand,.flame,.flame::after,.seal::after,.cover-hint,.lang-card,.lang-btn{animation:none!important}
+  .lang-prompt{transition:none}
+  .scene{transition:opacity .3s,visibility 0s linear .3s}
+  .door{transition:opacity .8s ease!important}
+  .doors.open .door-l,.doors.open .door-r{transform:none!important}
+  .doors.open .flash{animation:none}
+}
+</style>
+
+<svg class="defs" width="0" height="0" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="mgO" cx=".42" cy=".38" r=".7"><stop offset="0" stop-color="#ffd98a"/><stop offset=".5" stop-color="#f68b1d"/><stop offset="1" stop-color="#b24c08"/></radialGradient>
+    <radialGradient id="mgY" cx=".42" cy=".38" r=".7"><stop offset="0" stop-color="#fff2b0"/><stop offset=".5" stop-color="#f5b800"/><stop offset="1" stop-color="#a87304"/></radialGradient>
+    <linearGradient id="bellG" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7a5018"/><stop offset=".35" stop-color="#f8e4aa"/><stop offset=".6" stop-color="#d8a54b"/><stop offset="1" stop-color="#6b4416"/></linearGradient>
+    <linearGradient id="leafG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f9a55"/><stop offset="1" stop-color="#1f4f2a"/></linearGradient>
+    <linearGradient id="clay" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ebb560"/><stop offset=".5" stop-color="#b8692a"/><stop offset="1" stop-color="#5e2a0c"/></linearGradient>
+    <linearGradient id="goldV" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8e4aa"/><stop offset=".5" stop-color="#d8a54b"/><stop offset="1" stop-color="#8d5f22"/></linearGradient>
+    <pattern id="jaaliP" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M7 1L13 7L7 13L1 7Z" fill="none" stroke="#d8a54b" stroke-opacity=".22" stroke-width=".7"/><circle cx="7" cy="7" r="1.2" fill="#d8a54b" fill-opacity=".25"/></pattern>
+
+    <symbol id="orn" viewBox="0 0 240 24"><g fill="none" stroke="currentColor" stroke-width="1"><path d="M6 12H94M146 12H234"/><circle cx="4" cy="12" r="1.6" fill="currentColor"/><circle cx="236" cy="12" r="1.6" fill="currentColor"/><path d="M98 12l5-4 5 4-5 4zM132 12l5-4 5 4-5 4z" fill="currentColor"/><path d="M120 3c3.5 4.5 3.5 10.5 0 16-3.5-5.5-3.5-11.5 0-16z" fill="currentColor" fill-opacity=".3"/><path d="M120 19c-7-1.5-11.5-6-12.5-11 5.5 1.5 10 5.5 12.5 11zM120 19c7-1.5 11.5-6 12.5-11-5.5 1.5-10 5.5-12.5 11z"/></g></symbol>
+
+    <symbol id="i-book" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M16 9.5C12.5 7 8 6.8 4 8.2v15.5c4-1.4 8.5-1.2 12 1.3 3.5-2.5 8-2.7 12-1.3V8.2C24 6.8 19.5 7 16 9.5z"/><path d="M16 9.5V25"/></g></symbol>
+    <symbol id="i-tilak" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 5.5c0 9 2 15 5.5 19.5 3.5-4.5 5.5-10.5 5.5-19.5"/><path d="M16 9v9" stroke="#ff7a4d" stroke-width="2.6"/></g></symbol>
+    <symbol id="i-thali" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><circle cx="16" cy="16" r="12"/><circle cx="16" cy="16" r="9" stroke-dasharray="1 2.4" stroke-width="1.2"/><circle cx="12" cy="13" r="2.6"/><circle cx="20.5" cy="13" r="2.6"/><circle cx="16" cy="20.5" r="3"/></g></symbol>
+    <symbol id="i-haldi" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 15h23c-.5 6.5-5.4 11-11.5 11S5 21.5 4.5 15z"/><path d="M9 15c1.5-4.5 12.5-4.5 14 0" fill="#f5b800" fill-opacity=".45"/><path d="M12 7v1.5M16 5v1.5M20 7v1.5"/></g></symbol>
+    <symbol id="i-dholak" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11.5c0-2 22-2 22 0v9c0 2-22 2-22 0z"/><ellipse cx="5" cy="16" rx="1.6" ry="4.5"/><ellipse cx="27" cy="16" rx="1.6" ry="4.5"/><path d="M8.5 11.2l2.5 9.6 2.5-9.6 2.5 9.6 2.5-9.6 2.5 9.6 2.5-9.6" stroke-width="1.2"/></g></symbol>
+    <symbol id="i-kalash" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M10.5 15.5c-4.5 3-4.5 9.5.5 12.5h10c5-3 5-9.5.5-12.5z"/><path d="M12 12.5h8l-1 3h-6z"/><circle cx="16" cy="8.5" r="3"/><path d="M13.5 11c-3-.6-5.5.4-7 2.5M18.5 11c3-.6 5.5.4 7 2.5"/></g></symbol>
+    <symbol id="i-handi" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6.5 15.5c0 6 4.2 10.5 9.5 10.5s9.5-4.5 9.5-10.5z"/><path d="M5 15.5h22"/><path d="M12 12c-1.2-1.6 1.2-2.6 0-4.5M16 12c-1.2-1.6 1.2-2.6 0-4.5M20 12c-1.2-1.6 1.2-2.6 0-4.5"/></g></symbol>
+    <symbol id="i-mehndi" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 4.5h7L16 25z"/><path d="M13.4 9h5.2"/><path d="M21.5 21c2.5-1 4.5.5 4 2.5s-3 2.5-4.5 1"/><circle cx="24" cy="15" r=".9" fill="currentColor"/><circle cx="8" cy="18" r=".9" fill="currentColor"/><circle cx="9.5" cy="12" r=".9" fill="currentColor"/></g></symbol>
+    <symbol id="i-agni" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 22.5h22l-3 5H8z"/><path d="M16 4.5c2.8 3.6 6 6.6 6 10.4a6 6 0 0 1-12 0c0-2.6 1.6-4.4 2.8-6 .8 1.8 1.8 2.8 3 2.9.3-2.4-.8-4.8.2-7.3z" fill="#ff9b1f" fill-opacity=".35"/></g></symbol>
+    <symbol id="i-dwar" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M6 28V14.5C6 8.8 10.5 5.5 16 3.5c5.5 2 10 5.3 10 11V28"/><path d="M3.5 28h25"/><path d="M11 28V16.5c0-3.2 2.2-5.4 5-6.5 2.8 1.1 5 3.3 5 6.5V28"/></g></symbol>
+    <symbol id="i-mala" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M6 5c0 12 4.5 19 10 19s10-7 10-19" stroke="#f68b1d" stroke-width="3.6" stroke-dasharray="0.1 4.2"/><path d="M16 24v2.5" stroke-width="1.7"/><circle cx="16" cy="28.3" r="1.7" stroke-width="1.5"/></g></symbol>
+    <symbol id="i-chat" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4.2A11.8 11.8 0 0 0 5.8 21.9L4.3 27.7l6-1.5A11.8 11.8 0 1 0 16 4.2z"/><path d="M12.4 10.6h-1.1c-.6 0-1.4.6-1.4 1.9 0 3.6 5.9 9.4 9.5 9.4 1.3 0 1.9-.8 1.9-1.4v-1.1l-2.9-1.3-1.2 1.4c-1.6-.7-3.2-2.3-3.9-3.9l1.4-1.2z"/></g></symbol>
+    <symbol id="i-phone" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" transform="translate(4 4)"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></g></symbol>
+    <symbol id="i-home" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 15.5L16 5l12.5 10.5"/><path d="M7 13v14h18V13"/><path d="M13 27v-6.5a3 3 0 0 1 6 0V27"/><path d="M16 5V2.5l3 1.2-3 1.2"/><path d="M10 16.5h2.5M19.5 16.5H22"/></g></symbol>
+    <symbol id="i-doli" viewBox="0 0 32 32"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 14h27"/><path d="M9 14v10h14V14"/><path d="M9 14c0-4 3-7 7-8 4 1 7 4 7 8"/><path d="M16 6V3.5"/><path d="M13 17v7M19 17v7"/></g></symbol>
+
+    <symbol id="ic-sound" viewBox="0 0 24 24"><path d="M3.5 9h4l5-4v14l-5-4h-4z" fill="currentColor"/><path d="M15.5 8.5c1.2 1 1.8 2.2 1.8 3.5s-.6 2.5-1.8 3.5M18 6c2 1.6 3 3.7 3 6s-1 4.4-3 6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="ic-mute" viewBox="0 0 24 24"><path d="M3.5 9h4l5-4v14l-5-4h-4z" fill="currentColor"/><path d="M16 9.5l5 5M21 9.5l-5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></symbol>
+    <symbol id="ic-pause" viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1" fill="currentColor"/><rect x="14" y="5" width="4" height="14" rx="1" fill="currentColor"/></symbol>
+    <symbol id="ic-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12.5-7.5z" fill="currentColor"/></symbol>
+    <symbol id="ic-list" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M9 6.5h11M9 12h11M9 17.5h11"/></g><circle cx="4.8" cy="6.5" r="1.4" fill="currentColor"/><circle cx="4.8" cy="12" r="1.4" fill="currentColor"/><circle cx="4.8" cy="17.5" r="1.4" fill="currentColor"/></symbol>
+    <symbol id="ic-lang" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="8.6"/><ellipse cx="12" cy="12" rx="3.8" ry="8.6"/><path d="M3.6 12h16.8M5.2 7.4h13.6M5.2 16.6h13.6"/></g></symbol>
+  </defs>
+</svg>
+
+<div class="viewport">
+  <main class="stage" id="stage" aria-label="Wedding invitation of Abhishek and Ekta">
+    <svg class="bg-mandala" id="bgMandala" viewBox="-100 -100 200 200" aria-hidden="true"></svg>
+    <svg id="frame" aria-hidden="true"></svg>
+
+    <!-- Scenes are written in the chosen language by the script (see I18N) -->
+    <div class="scenes" id="scenes"></div>
+    <audio id="song" src="music.mp3" preload="metadata" loop></audio>
+
+    <svg id="toran" aria-hidden="true"></svg>
+    <canvas id="fx" aria-hidden="true"></canvas>
+
+    <div class="diya diya-l" aria-hidden="true"><span class="flame"></span><svg viewBox="0 0 64 28"><path d="M3 9C5 22 34 27 47 18L62 8C52 11 40 12 30 12C19 12 9 11 3 9Z" fill="url(#clay)"/><path d="M3 9C9 11 19 12 30 12C40 12 52 11 62 8" fill="none" stroke="#f8e4aa" stroke-width="1.1" stroke-linecap="round"/><path d="M13 17q4 3 8 0q4 3 8 0q4 3 8 0" fill="none" stroke="#f8e4aa" stroke-opacity=".6" stroke-width=".9"/></svg></div>
+    <div class="diya diya-r" aria-hidden="true"><span class="flame"></span><svg viewBox="0 0 64 28"><path d="M3 9C5 22 34 27 47 18L62 8C52 11 40 12 30 12C19 12 9 11 3 9Z" fill="url(#clay)"/><path d="M3 9C9 11 19 12 30 12C40 12 52 11 62 8" fill="none" stroke="#f8e4aa" stroke-width="1.1" stroke-linecap="round"/><path d="M13 17q4 3 8 0q4 3 8 0q4 3 8 0" fill="none" stroke="#f8e4aa" stroke-opacity=".6" stroke-width=".9"/></svg></div>
+
+    <div class="progress" id="progress" aria-hidden="true"></div>
+    <p class="hint" id="hint" aria-hidden="true"></p>
+    <div class="controls">
+      <button class="ctl" id="soundBtn" type="button" aria-label="Mute music" aria-pressed="true"><svg><use href="#ic-sound"/></svg></button>
+      <button class="ctl" id="pauseBtn" type="button" aria-label="Pause"><svg><use href="#ic-pause"/></svg></button>
+      <button class="ctl" id="schedBtn" type="button" aria-label="All ceremonies"><svg><use href="#ic-list"/></svg></button>
+      <button class="ctl" id="langBtn" type="button" aria-label="Change language"><svg><use href="#ic-lang"/></svg></button>
+    </div>
+
+    <!-- Cover: palace doors (the plaque inside is written in the chosen language) -->
+    <div class="doors await" id="doors">
+      <div class="flash"></div>
+      <div class="door door-l"><div class="door-art" aria-hidden="true"><svg class="door-carve"></svg><div class="cover-flow"></div></div></div>
+      <div class="door door-r"><div class="door-art" aria-hidden="true"><svg class="door-carve"></svg><div class="cover-flow"></div></div></div>
+      <div class="cover cover-flow" id="cover"></div>
+    </div>
+
+    <!-- Language plaque: shown first, and again from the globe button -->
+    <div class="lang" id="lang" role="dialog" aria-modal="true" aria-labelledby="langTitle">
+      <button class="ctl lang-x" id="langClose" type="button" aria-label="Close"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+      <div class="lang-card" lang="en">
+        <p class="lang-top" lang="sa">॥ स्वागतम् ॥</p>
+        <h2 class="lang-title gold-text" id="langTitle">Choose your language</h2>
+        <p class="lang-prompt" id="langPrompt" aria-hidden="true"></p>
+        <svg class="orn" viewBox="0 0 240 24" aria-hidden="true"><use href="#orn"/></svg>
+        <div class="lang-grid">
+          <button class="lang-btn" type="button" data-lang="hi" data-script="deva" style="--i:0"><span class="ln" lang="hi">हिन्दी</span><span class="ll">Hindi</span></button>
+          <button class="lang-btn" type="button" data-lang="en" data-script="latn" style="--i:1"><span class="ln">English</span><span class="ll">English</span></button>
+          <button class="lang-btn" type="button" data-lang="bn" data-script="bn" style="--i:2"><span class="ln" lang="bn">বাংলা</span><span class="ll">Bengali</span></button>
+          <button class="lang-btn" type="button" data-lang="gu" data-script="gu" style="--i:3"><span class="ln" lang="gu">ગુજરાતી</span><span class="ll">Gujarati</span></button>
+          <button class="lang-btn" type="button" data-lang="mwr" data-script="deva" style="--i:4"><span class="ln" lang="mwr">मारवाड़ी</span><span class="ll">Marwadi</span></button>
+          <button class="lang-btn" type="button" data-lang="awa" data-script="deva" style="--i:5"><span class="ln" lang="awa">अवधी</span><span class="ll">Awadhi</span></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- All ceremonies at a glance -->
+    <div class="overlay" id="sched" hidden role="dialog" aria-modal="true" aria-labelledby="schedTitle">
+      <div class="ov-inner">
+        <div class="ov-head">
+          <h2 id="schedTitle" class="gold-text">All Ceremonies</h2>
+          <button class="ctl" id="schedClose" type="button" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+        </div>
+        <div id="schedBody"></div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script>
+(() => {
+'use strict';
+const $ = (s, r = document) => r.querySelector(s);
+const $$ = (s, r = document) => [...r.querySelectorAll(s)];
+const reduceMotion = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+const stage = $('#stage'), doors = $('#doors');
+
+/* ================= Invitation details: edit dates, times and places here ================= */
+const EVENTS = [
+  { id:'path',    d:'2026-11-28', t:'11:00', icon:'book',   place:'bhadohi' },
+  { id:'tilak',   d:'2026-11-29', t:'13:00', icon:'tilak',  place:'bhadohi' },
+  { id:'bhoj',    d:'2026-11-29', t:'15:00', icon:'thali',  place:'bhadohi' },
+  { id:'haldi',   d:'2026-12-01', t:'14:00', icon:'haldi',  place:'bhadohi' },
+  { id:'sangeet', d:'2026-12-01', t:'18:00', icon:'dholak', place:'bhadohi' },
+  { id:'barua',   d:'2026-12-02', t:'12:00', icon:'kalash', place:'bhadohi' },
+  { id:'bhatwan', d:'2026-12-02', t:'15:00', icon:'handi',  place:'bhadohi' },
+  { id:'mehndi',  d:'2026-12-02', t:'17:00', icon:'mehndi', place:'bhadohi' },
+  { id:'vivah',   d:'2026-12-03', t:'19:00', icon:'agni',   place:'lucknow', main:true },
+  { id:'dwar',    d:'2026-12-03', t:'20:00', icon:'dwar',   place:'lucknow' },
+  { id:'jaimal',  d:'2026-12-03', t:'21:00', icon:'mala',   place:'lucknow' },
+  { id:'vidai',   d:'2026-12-04', t:'10:00', icon:'doli',   place:'lucknow' },
+];
+const MAPS = {
+  bhadohi:'https://www.google.com/maps/place/Upadhyay+Niwas/@25.3257125,82.6088906,17z/data=!3m1!4b1!4m6!3m5!1s0x398fdd46dae9a8dd:0x517affb0f88f5b2e!8m2!3d25.3257125!4d82.6088906!16s%2Fg%2F11tc8r394v?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D',
+  lucknow:'https://www.google.com/maps/search/?api=1&query=Lucknow%2C%20Uttar%20Pradesh',
+};
+const CHAPTERS = [
+  { id:'prayers', place:'bhadohi', days:['2026-11-28','2026-11-29'] },
+  { id:'rituals', place:'bhadohi', days:['2026-12-01','2026-12-02'] },
+  { id:'wedding', place:'lucknow', days:['2026-12-03','2026-12-04'] },
+];
+/* Contact page: numbers, and each name in every script (latn = English; deva = Hindi, Marwadi, Awadhi) */
+const CONTACTS = [
+  { tel:'9651319868', name:{ latn:'Rajeev Mishra',  deva:'राजीव मिश्रा',  bn:'রাজীব মিশ্রা',  gu:'રાજીવ મિશ્રા' } },
+  { tel:'9023060394', name:{ latn:'Abhinav Mishra', deva:'अभिनव मिश्रा', bn:'অভিনব মিশ্রা', gu:'અભિનવ મિશ્રા' } },
+  { tel:'7897578544', name:{ latn:'Ayush Mishra',   deva:'आयुष मिश्रा',   bn:'আয়ুষ মিশ্রা',   gu:'આયુષ મિશ્રા' } },
+  { tel:'9555255026', name:{ latn:'Piyush Mishra',  deva:'पीयूष मिश्रा',  bn:'পীযূষ মিশ্রা',  gu:'પીયૂષ મિશ્રા' } },
+];
+/* Home address page */
+const HOME = {
+  map:'https://www.google.com/maps/place/Upadhyay+Niwas/@25.3257125,82.6088906,17z/data=!3m1!4b1!4m6!3m5!1s0x398fdd46dae9a8dd:0x517affb0f88f5b2e!8m2!3d25.3257125!4d82.6088906!16s%2Fg%2F11tc8r394v?entry=ttu&g_ep=EgoyMDI2MTAyOC4wIKXMDSoASAFQAw%3D%3D',
+  name:{ latn:'Mishra Niwas', deva:'मिश्रा निवास', bn:'মিশ্রা নিবাস', gu:'મિશ્રા નિવાસ' },
+  lines:{
+    latn:['Vill. Giriya, PO Bhagwanpur, Kanehri', 'Parsipur, Chauri Bazar, SRN Bhadohi', 'PIN 221402, Uttar Pradesh'],
+    deva:['ग्राम-गिरिया, पोस्ट-भगवानपुर, कनेहरी', 'परसीपुर, चौरी बाज़ार, संत रविदास नगर भदोही', 'पिन 221402, उत्तर प्रदेश'],
+    bn:  ['গ্রাম-গিরিয়া, পোস্ট-ভগবানপুর, কনেহরী', 'পরসীপুর, চৌরী বাজার, সন্ত রবিদাস নগর ভদোহী', 'পিন 221402, উত্তরপ্রদেশ'],
+    gu:  ['ગામ-ગિરિયા, પોસ્ટ-ભગવાનપુર, કનેહરી', 'પરસીપુર, ચૌરી બજાર, સંત રવિદાસ નગર ભદોહી', 'પિન 221402, ઉત્તર પ્રદેશ'],
+  },
+};
+/* Every slide stays on screen this many seconds longer than its own animation time */
+const SLIDE_EXTRA = 0;
+
+/* ================= Wording in each language: edit any line here =================
+   Numbers (dates, times, countdown) stay in 0–9 digits in every language.
+   "\n" inside a verse starts a new line. */
+const MO_HI = ['जनवरी','फ़रवरी','मार्च','अप्रैल','मई','जून','जुलाई','अगस्त','सितंबर','अक्टूबर','नवंबर','दिसंबर'];
+const DEVA_SACRED = {
+  om:'ॐ',
+  invoke:'॥ श्री गणेशाय नमः ॥',
+  shloka:'वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।\nनिर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥',
+  chaupai:'मंगल भवन अमंगल हारी ।\nद्रवउ सो दसरथ अजिर बिहारी ॥',
+  cite:'— श्रीरामचरितमानस',
+};
+const I18N = {
+  hi: {
+    script:'deva', html:'hi', prompt:'अपनी भाषा चुनें',
+    wd:['रविवार','सोमवार','मंगलवार','बुधवार','गुरुवार','शुक्रवार','शनिवार'], mo:MO_HI,
+    periods:[[12,'प्रातः'],[17,'दोपहर'],[20,'सायं'],[24,'रात्रि']],
+    cover:{ top:'॥ शुभ विवाह ॥', eyebrow:'सादर आमंत्रण', amp:'संग', seal:['अ','ए'], hint:'आमंत्रण खोलें' },
+    places:'भदोही एवं लखनऊ',
+    ...DEVA_SACRED,
+    meaning:'हे वक्रतुण्ड, महाकाय, करोड़ों सूर्यों के समान तेजस्वी गणेश जी, हमारे सभी कार्य सदा निर्विघ्न पूर्ण करें।',
+    grace:'प्रभु श्रीराम एवं माता जानकी की असीम कृपा से',
+    hosts:'श्री राजेन्द्र प्रसाद मिश्रा एवं श्रीमती नगीना मिश्रा',
+    invite:'अपने सुपौत्र के शुभ विवाह में आपको सपरिवार सादर आमंत्रित करते हैं',
+    weddingOf:'शुभ विवाह',
+    groom:'अभिषेक', groomFull:'चि. अभिषेक मिश्रा', weds:'संग',
+    bride:'एकता', brideFull:'सौभाग्यकांक्षिणी एकता पाठक',
+    groomParents:'सुपुत्र स्व. श्री राकेश मिश्रा एवं श्रीमती नीलम मिश्रा',
+    brideParents:'सुपुत्री श्री अरविन्द पाठक एवं श्रीमती मृदुलता पाठक',
+    saveDate:'शुभ तिथि', wedPlace:'लखनऊ, उत्तर प्रदेश',
+    cd:['दिन','घंटे','मिनट','सेकंड'], cdDone:'शुभ घड़ी आ गई',
+    ch:{ prayers:'पाठ एवं तिलकोत्सव', rituals:'मांगलिक रस्में', wedding:'शुभ विवाह' },
+    venue:{ bhadohi:{ eyebrow:'निज निवास · भदोही', name:'निज निवास, भदोही', what:'विवाह पूर्व रस्में' },
+            lucknow:{ eyebrow:'लखनऊ · उत्तर प्रदेश', name:'लखनऊ', what:'विवाह एवं विदाई' } },
+    ev:{ path:'श्री रामचरितमानस पाठ', tilak:'तिलक समारोह', bhoj:'ब्रह्मभोज (प्रसाद)', haldi:'हल्दी', sangeet:'महिला संगीत', barua:'बरुआ',
+         bhatwan:'भतवान', mehndi:'मेहंदी', vivah:'शुभ विवाह', dwar:'द्वार पूजा', jaimal:'जयमाल', vidai:'विदाई' },
+    close:{ disp:'दर्शनाभिलाषी', sub:'आपके शुभागमन की प्रतीक्षा में', family:'मिश्रा एवं पाठक', families:'समस्त परिवार',
+            line:'आपकी उपस्थिति एवं आशीर्वाद ही हमारा सौभाग्य है' },
+    contact:{ eyebrow:'किसी भी जानकारी हेतु', title:'संपर्क सूत्र', hint:'व्हाट्सएप पर संदेश भेजने हेतु नाम या नंबर को स्पर्श करें' },
+    home:{ eyebrow:'निवास स्थान', open:'गूगल मैप पर देखें' },
+    ui:{ again:'फिर से देखें', all:'सभी कार्यक्रम', map:'नक्शा देखें', sched:'मांगलिक कार्यक्रम', hint:'आगे के लिए छुएँ · रोकने के लिए दबाए रखें',
+         mute:'संगीत बंद करें', unmute:'संगीत चलाएँ', pause:'रोकें', play:'चलाएँ', close:'बंद करें', lang:'भाषा बदलें',
+         open:'आमंत्रण खोलें', invitation:'अभिषेक एवं एकता का विवाह आमंत्रण' },
+  },
+
+  en: {
+    script:'latn', html:'en', prompt:'Choose your language',
+    wd:['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'],
+    mo:['January','February','March','April','May','June','July','August','September','October','November','December'],
+    cover:{ top:'Shubh Vivah', eyebrow:'The wedding of', amp:'&', seal:['A','E'], hint:'Tap to open' },
+    places:'Bhadohi & Lucknow',
+    om:'ॐ', invoke:'Shri Ganeshaya Namah',
+    shloka:'Vakratunda Mahakaya Suryakoti Samaprabha,\nNirvighnam Kuru Me Deva Sarva-Karyeshu Sarvada',
+    meaning:'O Lord Ganesha, of curved trunk and mighty form, radiant as a million suns, keep every obstacle from our path, always.',
+    chaupai:'Mangal bhavan amangal haari,\nDravau so Dasarath ajir bihaari',
+    cite:'— Shri Ramcharitmanas',
+    grace:'With the boundless grace of Prabhu Shri Ram & Mata Janaki',
+    hosts:'Shri Rajendra Prashad Mishra & Smt. Nagina Mishra',
+    invite:'cordially invite you and your family to the wedding of their grandson',
+    weddingOf:'The wedding of',
+    groom:'Abhishek', groomFull:'Abhishek Mishra', weds:'&',
+    bride:'Ekta', brideFull:'Ekta Pathak',
+    groomParents:'son of Lt. Shri Rakesh Mishra & Smt. Neelam Mishra',
+    brideParents:'daughter of Shri Arvind Pathak & Smt. Mridulata Pathak',
+    saveDate:'Save the date', wedPlace:'Lucknow, Uttar Pradesh',
+    cd:['Days','Hours','Mins','Secs'], cdDone:'The auspicious day has arrived',
+    ch:{ prayers:'Prayers & Tilak', rituals:'Auspicious Rituals', wedding:'The Wedding' },
+    venue:{ bhadohi:{ eyebrow:'At our home · Bhadohi', name:'Our Home, Bhadohi', what:'Pre-wedding ceremonies' },
+            lucknow:{ eyebrow:'Lucknow · Uttar Pradesh', name:'Lucknow', what:'Wedding & Vidai' } },
+    ev:{ path:'Ramcharitmanas Path', tilak:'Tilak Ceremony', bhoj:'Bramha Bhoj (Prashad)', haldi:'Haldi Ceremony', sangeet:'Ladies Sangeet', barua:'Barua',
+         bhatwan:'Bhattawaan', mehndi:'Mehndi Ceremony', vivah:'Wedding Ceremony', dwar:'Dwar Pujan', jaimal:'Jai Mala', vidai:'Vidai Ceremony' },
+    close:{ disp:'With Warm Regards', sub:'Awaiting your gracious presence', family:'Mishra & Pathak', families:'Families',
+            line:'Your presence and blessings will make our celebration complete.' },
+    contact:{ eyebrow:'For any assistance', title:'Contact Us', hint:'Tap a name or number to message on WhatsApp' },
+    home:{ eyebrow:'Home address', open:'Open in Google Maps' },
+    ui:{ again:'Watch again', all:'All ceremonies', map:'Open map', sched:'All Ceremonies', hint:'Tap for next · Hold to pause',
+         mute:'Mute music', unmute:'Play music', pause:'Pause', play:'Play', close:'Close', lang:'Change language',
+         open:'Open the invitation', invitation:'Wedding invitation of Abhishek and Ekta' },
+  },
+
+  bn: {
+    script:'bn', html:'bn', prompt:'আপনার ভাষা বেছে নিন',
+    wd:['রবিবার','সোমবার','মঙ্গলবার','বুধবার','বৃহস্পতিবার','শুক্রবার','শনিবার'],
+    mo:['জানুয়ারি','ফেব্রুয়ারি','মার্চ','এপ্রিল','মে','জুন','জুলাই','আগস্ট','সেপ্টেম্বর','অক্টোবর','নভেম্বর','ডিসেম্বর'],
+    periods:[[12,'সকাল'],[15,'দুপুর'],[18,'বিকেল'],[20,'সন্ধ্যা'],[24,'রাত']],
+    cover:{ top:'॥ শুভ বিবাহ ॥', eyebrow:'সাদর আমন্ত্রণ', amp:'ও', seal:['অ','এ'], hint:'আমন্ত্রণপত্র খুলুন' },
+    places:'ভদোহী ও লখনউ',
+    om:'ওঁ', invoke:'॥ শ্রী গণেশায় নমঃ ॥',
+    shloka:'বক্রতুণ্ড মহাকায় সূর্যকোটি সমপ্রভ ।\nনির্বিঘ্নং কুরু মে দেব সর্বকার্যেষু সর্বদা ॥',
+    meaning:'হে বক্রতুণ্ড, মহাকায়, কোটি সূর্যের মতো দীপ্তিমান গণেশ, আমাদের সকল কাজ সর্বদা নির্বিঘ্ন করো।',
+    chaupai:'মঙ্গল ভবন অমঙ্গল হারী ।\nদ্রবউ সো দসরথ অজির বিহারী ॥',
+    cite:'— শ্রীরামচরিতমানস',
+    grace:'প্রভু শ্রীরাম ও মাতা জানকীর অসীম কৃপায়',
+    hosts:'শ্রী রাজেন্দ্র প্রসাদ মিশ্রা ও শ্রীমতী নগীনা মিশ্রা',
+    invite:'তাঁদের পৌত্রের শুভ বিবাহে আপনাকে সপরিবারে সাদর আমন্ত্রণ জানাচ্ছেন',
+    weddingOf:'শুভ বিবাহ',
+    groom:'অভিষেক', groomFull:'শ্রীমান অভিষেক মিশ্রা', weds:'ও',
+    bride:'একতা', brideFull:'কল্যাণীয়া একতা পাঠক',
+    groomParents:'স্বর্গীয় শ্রী রাকেশ মিশ্রা ও শ্রীমতী নীলম মিশ্রার পুত্র',
+    brideParents:'শ্রী অরবিন্দ পাঠক ও শ্রীমতী মৃদুলতা পাঠকের কন্যা',
+    saveDate:'শুভ দিন', wedPlace:'লখনউ, উত্তরপ্রদেশ',
+    cd:['দিন','ঘণ্টা','মিনিট','সেকেন্ড'], cdDone:'শুভক্ষণ উপস্থিত',
+    ch:{ prayers:'পাঠ ও তিলক', rituals:'মাঙ্গলিক আচার', wedding:'শুভ বিবাহ' },
+    venue:{ bhadohi:{ eyebrow:'নিজ বাসভবন · ভদোহী', name:'নিজ বাসভবন, ভদোহী', what:'বিবাহপূর্ব অনুষ্ঠান' },
+            lucknow:{ eyebrow:'লখনউ · উত্তরপ্রদেশ', name:'লখনউ', what:'বিবাহ ও বিদায়' } },
+    ev:{ path:'শ্রীরামচরিতমানস পাঠ', tilak:'তিলক অনুষ্ঠান', bhoj:'ব্রহ্মভোজ (প্রসাদ)', haldi:'গায়ে হলুদ', sangeet:'মহিলা সংগীত', barua:'বরুআ',
+         bhatwan:'ভতওয়ান', mehndi:'মেহেন্দি', vivah:'শুভ বিবাহ', dwar:'দ্বার পূজা', jaimal:'মালাবদল', vidai:'বিদায়' },
+    close:{ disp:'বিনীত', sub:'আপনার শুভাগমনের প্রতীক্ষায়', family:'মিশ্রা ও পাঠক', families:'পরিবারবর্গ',
+            line:'আপনার উপস্থিতি ও আশীর্বাদই আমাদের সৌভাগ্য' },
+    contact:{ eyebrow:'যেকোনো প্রয়োজনে', title:'যোগাযোগ', hint:'হোয়াটসঅ্যাপে বার্তা পাঠাতে নাম বা নম্বরে ছুঁয়ে দিন' },
+    home:{ eyebrow:'বাড়ির ঠিকানা', open:'গুগল ম্যাপে দেখুন' },
+    ui:{ again:'আবার দেখুন', all:'সব অনুষ্ঠান', map:'মানচিত্র দেখুন', sched:'অনুষ্ঠানসূচি', hint:'এগোতে ছুঁয়ে দিন · থামাতে চেপে ধরুন',
+         mute:'সংগীত বন্ধ করুন', unmute:'সংগীত চালান', pause:'থামান', play:'চালান', close:'বন্ধ করুন', lang:'ভাষা বদলান',
+         open:'আমন্ত্রণপত্র খুলুন', invitation:'অভিষেক ও একতার বিবাহের আমন্ত্রণ' },
+  },
+
+  gu: {
+    script:'gu', html:'gu', prompt:'તમારી ભાષા પસંદ કરો',
+    wd:['રવિવાર','સોમવાર','મંગળવાર','બુધવાર','ગુરુવાર','શુક્રવાર','શનિવાર'],
+    mo:['જાન્યુઆરી','ફેબ્રુઆરી','માર્ચ','એપ્રિલ','મે','જૂન','જુલાઈ','ઑગસ્ટ','સપ્ટેમ્બર','ઑક્ટોબર','નવેમ્બર','ડિસેમ્બર'],
+    periods:[[12,'સવારે'],[17,'બપોરે'],[20,'સાંજે'],[24,'રાત્રે']],
+    cover:{ top:'॥ શુભ લગ્ન ॥', eyebrow:'સાદર આમંત્રણ', amp:'સંગ', seal:['અ','એ'], hint:'આમંત્રણ ખોલો' },
+    places:'ભદોહી અને લખનઉ',
+    om:'ૐ', invoke:'॥ શ્રી ગણેશાય નમઃ ॥',
+    shloka:'વક્રતુણ્ડ મહાકાય સૂર્યકોટિ સમપ્રભ ।\nનિર્વિઘ્નં કુરુ મે દેવ સર્વકાર્યેષુ સર્વદા ॥',
+    meaning:'હે વક્રતુંડ, મહાકાય, કરોડો સૂર્ય સમાન તેજસ્વી ગણેશજી, અમારાં સર્વ કાર્યો સદા નિર્વિઘ્ને પાર પાડજો.',
+    chaupai:'મંગલ ભવન અમંગલ હારી ।\nદ્રવઉ સો દસરથ અજિર બિહારી ॥',
+    cite:'— શ્રીરામચરિતમાનસ',
+    grace:'પ્રભુ શ્રીરામ અને માતા જાનકીની અસીમ કૃપાથી',
+    hosts:'શ્રી રાજેન્દ્ર પ્રસાદ મિશ્રા અને શ્રીમતી નગીના મિશ્રા',
+    invite:'તેમના સુપૌત્રના શુભ લગ્નપ્રસંગે આપને સહકુટુંબ સાદર આમંત્રણ પાઠવે છે',
+    weddingOf:'શુભ લગ્ન',
+    groom:'અભિષેક', groomFull:'ચિ. અભિષેક મિશ્રા', weds:'સંગ',
+    bride:'એકતા', brideFull:'સૌભાગ્યકાંક્ષિણી એકતા પાઠક',
+    groomParents:'સ્વ. શ્રી રાકેશ મિશ્રા અને શ્રીમતી નીલમ મિશ્રાના સુપુત્ર',
+    brideParents:'શ્રી અરવિંદ પાઠક અને શ્રીમતી મૃદુલતા પાઠકની સુપુત્રી',
+    saveDate:'શુભ દિવસ', wedPlace:'લખનઉ, ઉત્તર પ્રદેશ',
+    cd:['દિવસ','કલાક','મિનિટ','સેકન્ડ'], cdDone:'શુભ ઘડી આવી પહોંચી',
+    ch:{ prayers:'પાઠ અને તિલક', rituals:'માંગલિક વિધિઓ', wedding:'શુભ લગ્ન' },
+    venue:{ bhadohi:{ eyebrow:'નિજ નિવાસ · ભદોહી', name:'નિજ નિવાસ, ભદોહી', what:'લગ્ન પૂર્વેના પ્રસંગો' },
+            lucknow:{ eyebrow:'લખનઉ · ઉત્તર પ્રદેશ', name:'લખનઉ', what:'લગ્ન અને વિદાય' } },
+    ev:{ path:'શ્રી રામચરિતમાનસ પાઠ', tilak:'તિલક વિધિ', bhoj:'બ્રહ્મભોજ (પ્રસાદ)', haldi:'પીઠી', sangeet:'મહિલા સંગીત', barua:'બરુઆ',
+         bhatwan:'ભતવાન', mehndi:'મહેંદી', vivah:'શુભ લગ્ન', dwar:'દ્વાર પૂજન', jaimal:'વરમાળા', vidai:'વિદાય' },
+    close:{ disp:'દર્શનાભિલાષી', sub:'આપના શુભ આગમનની પ્રતીક્ષામાં', family:'મિશ્રા અને પાઠક', families:'સમસ્ત પરિવાર',
+            line:'આપની ઉપસ્થિતિ અને આશીર્વાદ એ જ અમારું સૌભાગ્ય છે' },
+    contact:{ eyebrow:'કોઈ પણ માહિતી માટે', title:'સંપર્ક', hint:'વોટ્સએપ પર સંદેશ મોકલવા નામ કે નંબર પર સ્પર્શ કરો' },
+    home:{ eyebrow:'ઘરનું સરનામું', open:'ગૂગલ મેપ પર જુઓ' },
+    ui:{ again:'ફરી જુઓ', all:'બધા પ્રસંગો', map:'નકશો જુઓ', sched:'માંગલિક પ્રસંગો', hint:'આગળ જવા સ્પર્શ કરો · રોકવા દબાવી રાખો',
+         mute:'સંગીત બંધ કરો', unmute:'સંગીત ચાલુ કરો', pause:'રોકો', play:'ચલાવો', close:'બંધ કરો', lang:'ભાષા બદલો',
+         open:'આમંત્રણ ખોલો', invitation:'અભિષેક અને એકતાનું લગ્ન આમંત્રણ' },
+  },
+
+  mwr: {
+    script:'deva', html:'mwr', prompt:'आपरी भासा चुणो',
+    wd:['दीतवार','सोमवार','मंगळवार','बुधवार','बिस्पतवार','सुकरवार','सनीचरवार'], mo:MO_HI,
+    periods:[[12,'सवेरै'],[17,'दोपारां'],[20,'सांझ'],[24,'रात']],
+    cover:{ top:'॥ शुभ ब्याव ॥', eyebrow:'सादर नूंतो', amp:'संग', seal:['अ','ए'], hint:'नूंतो खोलो' },
+    places:'भदोही अर लखनऊ',
+    ...DEVA_SACRED,
+    meaning:'हे वक्रतुण्ड, महाकाय, करोड़ूं सूरजां जेड़ा तेजवान गणेसजी, म्हारा सगळा काम सदा निरविघन पूरा करज्यो।',
+    grace:'प्रभु श्रीराम अर माता जानकी री असीम किरपा सूं',
+    hosts:'श्री राजेन्द्र प्रसाद मिश्रा अर श्रीमती नगीना मिश्रा',
+    invite:'आपणै सुपौत्र रै शुभ ब्याव में आपनै सपरिवार पधारण रो सादर नूंतो देवै है',
+    weddingOf:'शुभ ब्याव',
+    groom:'अभिषेक', groomFull:'चि. अभिषेक मिश्रा', weds:'संग',
+    bride:'एकता', brideFull:'सौभाग्यकांक्षिणी एकता पाठक',
+    groomParents:'स्व. श्री राकेश मिश्रा अर श्रीमती नीलम मिश्रा रा सुपुत्र',
+    brideParents:'श्री अरविन्द पाठक अर श्रीमती मृदुलता पाठक री सुपुत्री',
+    saveDate:'शुभ तिथि', wedPlace:'लखनऊ, उत्तर प्रदेश',
+    cd:['दिन','घंटा','मिनट','सैकंड'], cdDone:'शुभ घड़ी आयगी',
+    ch:{ prayers:'पाठ अर तिलक', rituals:'मांगळिक रीत', wedding:'शुभ ब्याव' },
+    venue:{ bhadohi:{ eyebrow:'म्हारै घरां · भदोही', name:'म्हारो घर, भदोही', what:'ब्याव सूं पैलां रा कारज' },
+            lucknow:{ eyebrow:'लखनऊ · उत्तर प्रदेश', name:'लखनऊ', what:'ब्याव अर बिदाई' } },
+    ev:{ path:'श्री रामचरितमानस पाठ', tilak:'तिलक', bhoj:'ब्रह्मभोज (प्रसाद)', haldi:'पीठी', sangeet:'महिला संगीत', barua:'बरुआ',
+         bhatwan:'भतवान', mehndi:'मेहंदी', vivah:'शुभ ब्याव', dwar:'द्वार पूजा', jaimal:'वरमाळा', vidai:'बिदाई' },
+    close:{ disp:'दर्शनाभिलाषी', sub:'आपरै पधारण री उडीक में', family:'मिश्रा अर पाठक', families:'सगळो परिवार',
+            line:'आपरी हाजरी अर आसीस ई म्हारो सौभाग है' },
+    contact:{ eyebrow:'कोई भी जाणकारी सारू', title:'संपर्क', hint:'व्हाट्सएप माथै संदेस भेजण सारू नाम का नंबर नै छूवो' },
+    home:{ eyebrow:'घर रो ठिकाणो', open:'गूगल मैप माथै देखो' },
+    ui:{ again:'पाछो देखो', all:'सगळा कारज', map:'नक्सो देखो', sched:'मांगळिक कारज', hint:'आगै जावण सारू छूवो · रोकण सारू दबायां राखो',
+         mute:'संगीत बंद करो', unmute:'संगीत चलाओ', pause:'रोको', play:'चलाओ', close:'बंद करो', lang:'भासा बदळो',
+         open:'नूंतो खोलो', invitation:'अभिषेक अर एकता रै ब्याव रो नूंतो' },
+  },
+
+  awa: {
+    script:'deva', html:'awa', prompt:'आपन भाखा चुनौ',
+    wd:['इतवार','सोमार','मंगर','बुध','बियफै','सुक्कर','सनीचर'], mo:MO_HI,
+    periods:[[12,'सबेरे'],[17,'दुपहरिया'],[20,'संझा'],[24,'रात']],
+    cover:{ top:'॥ शुभ बियाह ॥', eyebrow:'सादर नेवता', amp:'संग', seal:['अ','ए'], hint:'नेवता खोलौ' },
+    places:'भदोही औ लखनऊ',
+    ...DEVA_SACRED,
+    meaning:'हे वक्रतुण्ड, महाकाय, करोड़न सुरुज जइसन तेजवान गनेस जी, हमरे सगरे काज सदा बिना बिघन पूर करौ।',
+    grace:'प्रभु श्रीराम औ माता जानकी कै असीम किरपा से',
+    hosts:'श्री राजेन्द्र प्रसाद मिश्रा औ श्रीमती नगीना मिश्रा',
+    invite:'अपने सुपौत्र के शुभ बियाह मा आप सबका सपरिवार सादर नेवता देत हैं',
+    weddingOf:'शुभ बियाह',
+    groom:'अभिषेक', groomFull:'चि. अभिषेक मिश्रा', weds:'संग',
+    bride:'एकता', brideFull:'सौभाग्यकांक्षिणी एकता पाठक',
+    groomParents:'स्व. श्री राकेश मिश्रा औ श्रीमती नीलम मिश्रा कै बेटवा',
+    brideParents:'श्री अरविन्द पाठक औ श्रीमती मृदुलता पाठक कै बिटिया',
+    saveDate:'शुभ तिथि', wedPlace:'लखनऊ, उत्तर प्रदेश',
+    cd:['दिन','घंटा','मिनट','सेकंड'], cdDone:'शुभ घरी आय गई',
+    ch:{ prayers:'पाठ औ तिलक', rituals:'मंगल रसम', wedding:'शुभ बियाह' },
+    venue:{ bhadohi:{ eyebrow:'हमरे घरे · भदोही', name:'हमार घर, भदोही', what:'बियाह से पहिले कै रसम' },
+            lucknow:{ eyebrow:'लखनऊ · उत्तर प्रदेश', name:'लखनऊ', what:'बियाह औ बिदाई' } },
+    ev:{ path:'श्री रामचरितमानस पाठ', tilak:'तिलक', bhoj:'ब्रह्मभोज (परसाद)', haldi:'हरदी', sangeet:'महिला संगीत', barua:'बरुआ',
+         bhatwan:'भतवान', mehndi:'मेहंदी', vivah:'शुभ बियाह', dwar:'दुआर पूजा', jaimal:'जयमाल', vidai:'बिदाई' },
+    close:{ disp:'दर्शनाभिलाषी', sub:'आपके आवै कै बाट जोहत', family:'मिश्रा औ पाठक', families:'सगरा परिवार',
+            line:'आपकै उपस्थिति औ आसीरबाद हमार सौभाग्य अहै' },
+    contact:{ eyebrow:'कौनो जानकारी बरे', title:'संपर्क', hint:'व्हाट्सएप पै संदेसा भेजै बरे नाम या नंबर छुऔ' },
+    home:{ eyebrow:'घर कै पता', open:'गूगल मैप पै देखौ' },
+    ui:{ again:'फिर से देखौ', all:'सगरे कारज', map:'नक्सा देखौ', sched:'मंगल कारज', hint:'आगे बढ़ै बरे छुऔ · रोकै बरे दबाए रहौ',
+         mute:'संगीत बंद करौ', unmute:'संगीत चलावौ', pause:'रोकौ', play:'चलावौ', close:'बंद करौ', lang:'भाखा बदलौ',
+         open:'नेवता खोलौ', invitation:'अभिषेक औ एकता कै बियाह कै नेवता' },
+  },
+};
+/* ======================================================================================== */
+
+const esc = s => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+const nl = s => esc(s).replace(/\n/g,'<br>');
+const isLatin = L => L.script === 'latn';
+const icon = name => `<svg viewBox="0 0 32 32" aria-hidden="true"><use href="#i-${name}"/></svg>`;
+function dayInfo(d){ const dt = new Date(d + 'T00:00:00Z'); return { w:dt.getUTCDay(), day:dt.getUTCDate(), m:dt.getUTCMonth(), yr:dt.getUTCFullYear() }; }
+const mon = (L, m) => isLatin(L) ? L.mo[m].slice(0,3) : L.mo[m];
+function fmtTime(L, t){
+  const [h, m] = t.split(':').map(Number), hh = h % 12 || 12, mm = String(m).padStart(2,'0');
+  if (isLatin(L)) return `${hh}:${mm} ${h >= 12 ? 'PM' : 'AM'}`;
+  return `${L.periods.find(([max]) => h < max)[1]} ${hh}:${mm}`;
+}
+function fmtDayHead(L, d){ const i = dayInfo(d); return isLatin(L) ? `${L.wd[i.w].slice(0,3)} · ${i.day} ${mon(L, i.m)}` : `${L.wd[i.w]} · ${i.day} ${L.mo[i.m]}`; }
+function fmtDayLong(L, d){ const i = dayInfo(d); return `${L.wd[i.w]} · ${i.day} ${L.mo[i.m]} ${i.yr}`; }
+function fmtRange(L, a, b, withYear){
+  const x = dayInfo(a), y = dayInfo(b);
+  const s = x.m === y.m ? `${x.day} – ${y.day} ${mon(L, y.m)}` : `${x.day} ${mon(L, x.m)} – ${y.day} ${mon(L, y.m)}`;
+  return withYear ? `${s} ${y.yr}` : s;
+}
+const datesOf = place => EVENTS.filter(e => !place || e.place === place).map(e => e.d).sort();
+
+/* ---------- Mandalas ---------- */
+/* medallion = true for the Om page: only the outer rings, around a clear velvet centre with a soft glow */
+function mandalaSVG(stroke, medallion){
+  const petal = (r0, r1, w) => { const a = r0 + (r1 - r0) * .35, b = r0 + (r1 - r0) * .8;
+    return `M0,${-r0} C${w},${-a} ${w*.8},${-b} 0,${-r1} C${-w*.8},${-b} ${-w},${-a} 0,${-r0}Z`; };
+  const ring = (n, d, extra = '', off = 0) => Array.from({length:n}, (_, i) => `<path d="${d}" transform="rotate(${(i*360/n + off).toFixed(2)})" ${extra}/>`).join('');
+  const outer = `<g class="m-out"><circle r="97"/><circle r="93" stroke-dasharray="0.1 3.2" stroke-linecap="round" stroke-width="1.6"/>
+      ${ring(32, petal(70, 91, 6), 'fill="rgba(216,165,75,.07)"')}${ring(32, petal(76, 86, 2), '', 5.625)}<circle r="68"/></g>`;
+  if (medallion) return `<defs>
+      <radialGradient id="omDisc" r=".5"><stop offset="0" stop-color="#7a1c33"/><stop offset=".55" stop-color="#5a1226"/><stop offset="1" stop-color="#3f0a19"/></radialGradient>
+      <radialGradient id="omGlow" r=".5"><stop offset="0" stop-color="#f8e4aa" stop-opacity=".28"/><stop offset="1" stop-color="#f8e4aa" stop-opacity="0"/></radialGradient></defs>
+    <circle r="68" fill="url(#omDisc)"/><circle r="54" fill="url(#omGlow)"/>
+    <g fill="none" stroke="${stroke}" stroke-width=".6">${outer}
+      <circle r="64.5" stroke-dasharray="0.1 2.9" stroke-linecap="round" stroke-width="1.3" stroke-opacity=".8"/></g>`;
+  return `<g fill="none" stroke="${stroke}" stroke-width=".6">
+    ${outer}
+    <g class="m-in">${ring(16, petal(40, 66, 12), 'fill="rgba(216,165,75,.09)"')}${ring(16, petal(46, 60, 4), '', 11.25)}
+      <circle r="38"/><circle r="34" stroke-dasharray="0.1 2.6" stroke-linecap="round" stroke-width="1.4"/></g>
+    <g class="m-core">${ring(12, petal(17, 32, 7), 'fill="rgba(216,165,75,.08)"')}<circle r="16"/></g>
+  </g>`;
+}
+const MANDALA = mandalaSVG('#d8a54b', true);
+$('#bgMandala').innerHTML = mandalaSVG('#f8e4aa');
+
+/* ---------- Writing the invitation in one language ---------- */
+/* live = the layer guests interact with (seal and buttons); otherwise the copy painted on a door.
+   Both are built from the same markup so they line up exactly. */
+function coverHTML(L, live){
+  const ds = datesOf();
+  const seal = `<span>${esc(L.cover.seal[0])}</span>${isLatin(L) ? '<i>&amp;</i>' : '<i class="dm"></i>'}<span>${esc(L.cover.seal[1])}</span>`;
+  return `<div class="cv-art">
+      <div class="ganesh-wrap"${live ? ` role="img" aria-label="${esc(L.invoke)}"` : ''}>
+        <img class="ganesh" src="ganesha.png" alt="" width="480" height="587" decoding="async">
+      </div>
+      <p class="cover-sh">${esc(L.cover.top)}</p>
+      <p class="eyebrow">${esc(L.cover.eyebrow)}</p>
+      <h1 class="cover-names"><span class="gold-text">${esc(L.groom)}</span><span class="amp gold-text">${esc(L.cover.amp)}</span><span class="gold-text">${esc(L.bride)}</span></h1>
+      <svg class="orn cover-orn" viewBox="0 0 240 24" aria-hidden="true"><use href="#orn"/></svg>
+      <p class="cover-date">${esc(fmtRange(L, ds[0], ds[ds.length - 1], true))}<br>${esc(L.places)}</p>
+    </div>
+    <div class="cv-ctl">${live
+      ? `<button class="seal" id="openBtn" type="button" aria-label="${esc(L.ui.open)}">${seal}</button>
+      <p class="cover-hint">${esc(L.cover.hint)}</p>
+      <button class="cover-lang" id="coverLang" type="button"><svg aria-hidden="true"><use href="#ic-lang"/></svg><span>${esc(L.ui.lang)}</span></button>`
+      : `<div class="seal">${seal}</div>
+      <p class="cover-hint">${esc(L.cover.hint)}</p>
+      <div class="cover-lang"><svg><use href="#ic-lang"/></svg><span>${esc(L.ui.lang)}</span></div>`}
+    </div>`;
+}
+
+function chapterHTML(L, ch){
+  const v = L.venue[ch.place];
+  let k = 0, count = 0;
+  const delay = () => (1.0 + (k++) * 0.34).toFixed(2) + 's';
+  const days = ch.days.map(d => {
+    const evs = EVENTS.filter(e => e.d === d);
+    count += evs.length;
+    return `<div class="day">
+      <p class="day-h rv" style="--d:${delay()}"><span>${esc(fmtDayHead(L, d))}</span></p>
+      ${evs.map(e => `<div class="ev rv${e.main ? ' is-main' : ''}" style="--d:${delay()}">
+        <span class="ev-ic">${icon(e.icon)}</span>
+        <span class="ev-name">${esc(L.ev[e.id])}</span>
+        <span class="ev-time">${esc(fmtTime(L, e.t))}</span>
+      </div>`).join('')}
+    </div>`;
+  }).join('');
+  const dur = (5 + count * 1.1).toFixed(1);
+  return `<section class="scene s-cer" data-dur="${dur}" aria-label="${esc(L.ch[ch.id])}">
+    <header class="cer-head">
+      <p class="eyebrow rv" style="--d:.2s">${esc(v.eyebrow)}</p>
+      <h2 class="cer-title rv gold-text" style="--d:.45s">${esc(L.ch[ch.id])}</h2>
+    </header>
+    <div class="days">${days}</div>
+  </section>`;
+}
+
+function scenesHTML(L){
+  const wed = EVENTS.find(e => e.main), wi = dayInfo(wed.d);
+  const venueCards = Object.keys(MAPS).map(key => { const v = L.venue[key], ds = datesOf(key);
+    return `<a class="venue" href="${esc(MAPS[key])}" target="_blank" rel="noopener noreferrer">
+      <span class="v-when">${esc(fmtRange(L, ds[0], ds[ds.length - 1]))}</span><span class="v-name">${esc(v.name)}</span>
+      <span class="v-what">${esc(v.what)}</span><span class="v-link">${esc(L.ui.map)} ↗</span></a>`; }).join('');
+  return `
+  <section class="scene s-ganesh" data-dur="8" aria-label="${esc(L.invoke)}">
+    <div class="mandala-wrap rv bloom" style="--d:.1s">
+      <svg class="mandala" viewBox="-100 -100 200 200" aria-hidden="true">${MANDALA}</svg>
+      <span class="om">${esc(L.om)}</span>
+    </div>
+    <p class="disp rv gold-text" style="--d:.9s">${esc(L.invoke)}</p>
+    <p class="shloka rv" style="--d:1.6s">${nl(L.shloka)}</p>
+    <p class="trans rv" style="--d:2.6s">${esc(L.meaning)}</p>
+  </section>
+
+  <section class="scene s-bless" data-dur="10" aria-label="${esc(L.grace)}">
+    <p class="chaupai rv" style="--d:.2s">${nl(L.chaupai)}</p>
+    <p class="cite rv" style="--d:.8s">${esc(L.cite)}</p>
+    <svg class="orn rv" style="--d:1.1s" viewBox="0 0 240 24" aria-hidden="true"><use href="#orn"/></svg>
+    <p class="line rv" style="--d:1.6s">${esc(L.grace)}</p>
+    <p class="hosts rv" style="--d:2.6s">${esc(L.hosts)}</p>
+    <p class="line rv" style="--d:3.6s">${esc(L.invite)}</p>
+  </section>
+
+  <section class="scene s-names" data-dur="10" data-hook="names" aria-label="${esc(L.weddingOf)}">
+    <p class="eyebrow rv" style="--d:.2s">${esc(L.weddingOf)}</p>
+    <div class="person">
+      <h2 class="name write gold-text" style="--d:.6s">${esc(L.groom)}</h2>
+      <p class="name-sub rv" style="--d:2.1s">${esc(L.groomFull)}</p>
+    </div>
+    <p class="line small parents rv" style="--d:2.5s">${esc(L.groomParents)}</p>
+    <div class="weds rv bloom" style="--d:3s"><b class="amp gold-text">${esc(L.weds)}</b></div>
+    <div class="person">
+      <h2 class="name write gold-text" style="--d:3.6s">${esc(L.bride)}</h2>
+      <p class="name-sub rv" style="--d:4.9s">${esc(L.brideFull)}</p>
+    </div>
+    <p class="line small parents rv" style="--d:5.4s">${esc(L.brideParents)}</p>
+  </section>
+
+  <section class="scene s-date" data-dur="8" aria-label="${esc(L.saveDate)}">
+    <p class="eyebrow rv" style="--d:.2s">${esc(L.saveDate)}</p>
+    <p class="date-month rv" style="--d:.6s">${esc(L.mo[wi.m])}</p>
+    <div class="date-row rv bloom" style="--d:1s">
+      <p class="date-side">${esc(L.wd[wi.w])}</p>
+      <p class="date-day gold-text">${String(wi.day).padStart(2,'0')}</p>
+      <p class="date-side">${esc(fmtTime(L, wed.t))}</p>
+    </div>
+    <p class="date-year rv" style="--d:1.4s">${wi.yr}</p>
+    <p class="place rv" style="--d:2s">${esc(L.wedPlace)}</p>
+    <div class="countdown rv" style="--d:2.6s" id="countdown">
+      <div class="cd"><b id="cdD">00</b><span>${esc(L.cd[0])}</span></div>
+      <div class="cd"><b id="cdH">00</b><span>${esc(L.cd[1])}</span></div>
+      <div class="cd"><b id="cdM">00</b><span>${esc(L.cd[2])}</span></div>
+      <div class="cd"><b id="cdS">00</b><span>${esc(L.cd[3])}</span></div>
+    </div>
+    <p class="cd-done rv" style="--d:2.6s" id="cdDone" hidden>${esc(L.cdDone)}</p>
+  </section>
+
+  ${CHAPTERS.map(ch => chapterHTML(L, ch)).join('')}
+
+  <section class="scene s-cer s-contact" data-dur="8" aria-label="${esc(L.contact.title)}">
+    <header class="cer-head">
+      <p class="eyebrow rv" style="--d:.2s">${esc(L.contact.eyebrow)}</p>
+      <h2 class="cer-title rv gold-text" style="--d:.45s">${esc(L.contact.title)}</h2>
+    </header>
+    <div class="days"><div class="day">
+      ${CONTACTS.map((c, i) => `<a class="ev contact rv" style="--d:${(1 + i*.34).toFixed(2)}s" href="https://wa.me/91${c.tel}" target="_blank" rel="noopener noreferrer">
+        <span class="ev-ic">${icon('chat')}</span>
+        <span class="ev-name">${esc(c.name[L.script])}</span>
+        <span class="ev-time tel">${c.tel.slice(0, 5)} ${c.tel.slice(5)}</span>
+      </a>`).join('')}
+    </div></div>
+    <p class="line small rv" style="--d:2.6s">${esc(L.contact.hint)}</p>
+  </section>
+
+  <section class="scene s-home" data-dur="8" aria-label="${esc(L.home.eyebrow)}">
+    <p class="eyebrow rv" style="--d:.2s">${esc(L.home.eyebrow)}</p>
+    <span class="ev-ic home-ic rv bloom" style="--d:.5s">${icon('home')}</span>
+    <h2 class="cer-title rv gold-text" style="--d:.9s">${esc(HOME.name[L.script])}</h2>
+    <svg class="orn rv" style="--d:1.2s" viewBox="0 0 240 24" aria-hidden="true"><use href="#orn"/></svg>
+    <p class="addr rv" style="--d:1.5s">${HOME.lines[L.script].map(esc).join('<br>')}</p>
+    <div class="actions rv" style="--d:2.1s">
+      <a class="btn solid" href="${esc(HOME.map)}" target="_blank" rel="noopener noreferrer">${esc(L.home.open)} ↗</a>
+    </div>
+  </section>
+
+  <section class="scene s-close" data-dur="6" data-final aria-label="${esc(L.close.disp)}">
+    <p class="disp rv gold-text" style="--d:.2s">${esc(L.close.disp)}</p>
+    <p class="line dim rv" style="--d:.6s">${esc(L.close.sub)}</p>
+    <h2 class="family write gold-text" style="--d:1s">${esc(L.close.family)}</h2>
+    <p class="eyebrow families rv" style="--d:2.4s">${esc(L.close.families)}</p>
+    <svg class="orn rv" style="--d:2.7s" viewBox="0 0 240 24" aria-hidden="true"><use href="#orn"/></svg>
+    <p class="line rv" style="--d:3s">${esc(L.close.line)}</p>
+    <div class="venues rv" style="--d:3.5s">${venueCards}</div>
+    <div class="actions rv" style="--d:4s">
+      <button class="btn solid" type="button" data-act="replay">${esc(L.ui.again)}</button>
+      <button class="btn" type="button" data-act="sched">${esc(L.ui.all)}</button>
+    </div>
+  </section>`;
+}
+
+function schedHTML(L){
+  return Object.keys(MAPS).map(key => {
+    const v = L.venue[key];
+    const days = [...new Set(datesOf(key))];
+    return `<section class="ov-group">
+      <div class="ov-venue"><b>${esc(v.name)}</b><a href="${esc(MAPS[key])}" target="_blank" rel="noopener noreferrer">${esc(L.ui.map)} ↗</a></div>
+      ${days.map(d => `<p class="ov-day">${esc(fmtDayLong(L, d))}</p>
+        ${EVENTS.filter(e => e.d === d && e.place === key).map(e => `<div class="ov-ev"><time datetime="${e.d}T${e.t}">${esc(fmtTime(L, e.t))}</time><span>${esc(L.ev[e.id])}</span></div>`).join('')}`).join('')}
+    </section>`;
+  }).join('');
+}
+
+/* ---------- Wedding date + countdown ---------- */
+const WED = EVENTS.find(e => e.main);
+const WED_TS = Date.parse(`${WED.d}T${WED.t}:00+05:30`);
+function tickCountdown(){
+  const box = $('#countdown'); if (!box) return;
+  let s = Math.floor((WED_TS - Date.now()) / 1000);
+  if (s <= 0){ box.hidden = true; $('#cdDone').hidden = false; return; }
+  const p = n => String(n).padStart(2,'0');
+  $('#cdD').textContent = p(Math.floor(s / 86400)); s %= 86400;
+  $('#cdH').textContent = p(Math.floor(s / 3600)); s %= 3600;
+  $('#cdM').textContent = p(Math.floor(s / 60));
+  $('#cdS').textContent = p(s % 60);
+}
+setInterval(tickCountdown, 1000);
+
+/* ---------- Geometry: frame, toran, door clip ---------- */
+let W = 0, H = 0, U = 4;
+function archPath(d, drop){ return archBox(d, d + drop, W - d, H - d); }
+/* The invitation's arch inside any box: sides x0..x1, peak at y0, base at yB */
+function archBox(x0, y0, x1, yB){
+  const cx = (x0 + x1) / 2, w = x1 - x0, yb = y0 + w * .47;
+  const f = n => n.toFixed(1);
+  return `M${f(x0)},${f(yB)} L${f(x0)},${f(yb)} C${f(x0)},${f(yb - w*.28)} ${f(cx - w*.24)},${f(y0 + w*.16)} ${f(cx - w*.06)},${f(y0 + w*.055)} `
+       + `C${f(cx - w*.025)},${f(y0 + w*.03)} ${f(cx - w*.004)},${f(y0 + w*.012)} ${f(cx)},${f(y0)} `
+       + `C${f(cx + w*.004)},${f(y0 + w*.012)} ${f(cx + w*.025)},${f(y0 + w*.03)} ${f(cx + w*.06)},${f(y0 + w*.055)} `
+       + `C${f(cx + w*.24)},${f(y0 + w*.16)} ${f(x1)},${f(yb - w*.28)} ${f(x1)},${f(yb)} L${f(x1)},${f(yB)} Z`;
+}
+function buildFrame(){
+  const svg = $('#frame');
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const outer = archPath(U*2.4, U*1.6);
+  const box = `M0 0H${W}V${H}H0Z `;
+  svg.innerHTML =
+    `<path d="${box}${outer}" fill-rule="evenodd" fill="rgba(18,2,7,.55)"/>` +
+    `<path d="${box}${outer}" fill-rule="evenodd" fill="url(#jaaliP)"/>` +
+    `<path d="${outer}" fill="none" stroke="url(#goldV)" stroke-width="${Math.max(1.2, U*.42).toFixed(2)}"/>` +
+    `<path d="${archPath(U*3.7, U*2.9)}" fill="none" stroke="#8d5f22" stroke-width="1"/>` +
+    `<path d="${archPath(U*5, U*4.3)}" fill="none" stroke="#d8a54b" stroke-opacity=".75" stroke-width="${Math.max(1.6, U*.55).toFixed(2)}" stroke-linecap="round" stroke-dasharray="0 ${(U*1.7).toFixed(1)}"/>`;
+  doors.style.clipPath = `path('${archPath(U*3.7, U*2.9)}')`;
+}
+/* Carving on the doors, drawn across both: an inner arch (gold, bronze and dotted rules, like the page frame)
+   and a band of gold studs at the foot. Each door shows its own half. */
+function buildDoorArt(){
+  const f = n => n.toFixed(1), arch = d => archBox(d, d + U * 4, W - d, H - d), dot = U * 5.5;   // tall peak, tucked behind the toran
+  const rTop = H - U * 13.8, rBot = H - U * 10.8, sy = (rTop + rBot) / 2;
+  let studs = '';                                             // one row of studs, symmetric about the seam
+  for (let x = W / 2 + dot / 2; x < W - U * 11; x += dot){
+    for (const sx of [x, W - x]) studs += `<circle cx="${f(sx)}" cy="${f(sy)}" r="${f(Math.max(2, U * .55))}" fill="none" stroke="#8d5f22" stroke-width=".8"/><circle cx="${f(sx)}" cy="${f(sy)}" r="${f(Math.max(1.3, U * .36))}" fill="#f8e4aa"/>`;
+  }
+  $$('.door-carve').forEach((svg, i) => {
+    svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+    svg.innerHTML =
+      `<defs><clipPath id="carve${i}"><path d="${arch(U * 10.6)}"/></clipPath></defs>` +
+      `<path d="${arch(U * 7.6)}" fill="none" stroke="url(#goldV)" stroke-width="${f(Math.max(1.1, U * .32))}"/>` +
+      `<path d="${arch(U * 8.7)}" fill="none" stroke="#8d5f22" stroke-width="1"/>` +
+      `<path d="${arch(U * 9.8)}" fill="none" stroke="#d8a54b" stroke-opacity=".7" stroke-width="${f(Math.max(1.4, U * .45))}" stroke-linecap="round" stroke-dasharray="0 ${f(U * 1.7)}"/>` +
+      `<g clip-path="url(#carve${i})">${studs}<path d="M0 ${f(rTop)}H${W}M0 ${f(rBot)}H${W}" stroke="#d8a54b" stroke-opacity=".55" stroke-width="1"/></g>`;
+  });
+}
+function buildToran(){
+  const svg = $('#toran');
+  const h = Math.ceil(U * 26);
+  svg.setAttribute('viewBox', `0 0 ${W} ${h}`); svg.setAttribute('width', W); svg.setAttribute('height', h);
+  const top = U * 4.2, n = Math.max(3, Math.round(W / (U * 22))), step = W / n, sag = U * 6.5, r = Math.max(2.6, U * 1.25);
+  const f = v => v.toFixed(1);
+  const flower = (x, y, rr, alt) => `<circle cx="${f(x)}" cy="${f(y)}" r="${rr.toFixed(2)}" fill="url(#${alt ? 'mgY' : 'mgO'})" stroke="${alt ? '#a87204' : '#a2480a'}" stroke-width="${(rr*.24).toFixed(2)}" stroke-dasharray="${(rr*.34).toFixed(2)} ${(rr*.28).toFixed(2)}"/>`;
+  const leaf = (x, y, a) => { const ll = U*5.2, lw = U*1.5;
+    return `<g transform="rotate(${a} ${f(x)} ${f(y)})"><path d="M${f(x)} ${f(y)} C${f(x+lw)} ${f(y+ll*.3)} ${f(x+lw*.5)} ${f(y+ll*.85)} ${f(x)} ${f(y+ll)} C${f(x-lw*.5)} ${f(y+ll*.85)} ${f(x-lw)} ${f(y+ll*.3)} ${f(x)} ${f(y)}Z" fill="url(#leafG)" stroke="#173d20" stroke-width=".6"/><path d="M${f(x)} ${f(y+ll*.1)}V${f(y+ll*.9)}" stroke="#7fbf7f" stroke-opacity=".5" stroke-width=".6"/></g>`; };
+  const bell = (x, y, rr) => { const bw = rr*2.1, bh = rr*2.3;
+    return `<path d="M${f(x-bw/2)} ${f(y+bh)} C${f(x-bw/2)} ${f(y+bh*.3)} ${f(x-bw*.3)} ${f(y)} ${f(x)} ${f(y)} C${f(x+bw*.3)} ${f(y)} ${f(x+bw/2)} ${f(y+bh*.3)} ${f(x+bw/2)} ${f(y+bh)}Z" fill="url(#bellG)" stroke="#6b4416" stroke-width=".6"/><ellipse cx="${f(x)}" cy="${f(y+bh)}" rx="${f(bw*.56)}" ry="${f(rr*.32)}" fill="#d8a54b" stroke="#6b4416" stroke-width=".5"/><circle cx="${f(x)}" cy="${f(y+bh+rr*.55)}" r="${f(rr*.38)}" fill="#f8e4aa"/>`; };
+  let leaves = '', swags = '', strands = '';
+  for (let k = 0; k <= n; k++){ const x = k * step; leaves += leaf(x, top, -38) + leaf(x, top, 38) + leaf(x, top, 0); }
+  for (let k = 0; k < n; k++){
+    const x0 = k * step, x1 = x0 + step, xm = x0 + step / 2, m = Math.max(6, Math.floor(step / (r * 1.85)));
+    for (let i = 0; i < m; i++){ const t = i / m; const x = (1-t)*(1-t)*x0 + 2*(1-t)*t*xm + t*t*x1; const y = top + 2*(1-t)*t*(sag*2); swags += flower(x, y, r, (i + k) % 2); }
+  }
+  for (let k = 1; k < n; k++){
+    const x = k * step; let s = '';
+    for (let j = 0; j < 4; j++) s += flower(x, top + r*1.6 + j*r*1.85, r*.92, (j + k) % 2);
+    s += bell(x, top + r*1.6 + 4*r*1.85 - r*.6, r);
+    strands += `<g class="strand" style="transform-origin:${f(x)}px ${f(top)}px;animation-delay:${(-(k*0.9) % 4).toFixed(1)}s">${s}</g>`;
+  }
+  svg.innerHTML = `<path d="M0 ${f(top)}H${f(W)}" stroke="#6b4416" stroke-width="${Math.max(1, U*.35).toFixed(2)}"/>${leaves}${swags}${flower(W, top, r, 0)}${strands}`;
+}
+
+/* ---------- Petals and gold dust ---------- */
+const FX = (() => {
+  const cv = $('#fx'), g = cv.getContext('2d');
+  let parts = [], w = 0, h = 0, dpr = 1;
+  const PAL = [['#ffb21f','#d86f00'],['#ff9418','#bf5200'],['#ffc93c','#d98e00'],['#c3133c','#7e0a26'],['#e04a6c','#9d1d3d']];
+  const petal = (x, y, vy) => ({ k:0, x, y, vx:(Math.random()-.5)*24, vy: vy ?? (20 + Math.random()*20), term:18 + Math.random()*22,
+    s:U*(.8 + Math.random()*.8), rot:Math.random()*6.28, vr:(Math.random()-.5)*2.4, flip:Math.random()*6.28, vf:1.5 + Math.random()*2.5,
+    sway:Math.random()*6.28, c:PAL[Math.random()*PAL.length | 0] });
+  const spark = (x, y) => ({ k:1, x, y, vx:(Math.random()-.5)*8, vy:-(3 + Math.random()*9), s:.6 + Math.random()*1.5, life:0, max:3 + Math.random()*4, tw:Math.random()*6.28 });
+  function resize(){ dpr = Math.min(2, window.devicePixelRatio || 1); w = W; h = H; cv.width = Math.round(W*dpr); cv.height = Math.round(H*dpr); }
+  function burst(n = 46){
+    if (reduceMotion) return;
+    for (let i = 0; i < n; i++) parts.push(petal(Math.random()*w, -20 - Math.random()*h*.35, 70 + Math.random()*70));
+    for (let i = 0; i < 26; i++) parts.push(spark(w*.5 + (Math.random()-.5)*w*.7, h*.45 + (Math.random()-.5)*h*.35));
+  }
+  function drawPetal(p){
+    g.save(); g.translate(p.x, p.y); g.rotate(p.rot); g.scale(1, .3 + .7*Math.abs(Math.cos(p.flip)));
+    const s = p.s; g.globalAlpha = .92; g.fillStyle = p.c[0];
+    g.beginPath(); g.moveTo(0, -s); g.bezierCurveTo(s*.85, -s*.55, s*.7, s*.65, 0, s); g.bezierCurveTo(-s*.7, s*.65, -s*.85, -s*.55, 0, -s); g.fill();
+    g.strokeStyle = p.c[1]; g.lineWidth = .7; g.beginPath(); g.moveTo(0, -s*.7); g.lineTo(0, s*.8); g.stroke(); g.restore();
+  }
+  function drawSpark(p){
+    const a = Math.sin(Math.PI * p.life / p.max) * (.55 + .45*Math.sin(p.tw + p.life*6));
+    if (a <= 0) return;
+    const r = p.s; g.save(); g.translate(p.x, p.y); g.globalAlpha = a * .25; g.fillStyle = '#ffd98a';
+    g.beginPath(); g.arc(0, 0, r*3.2, 0, 6.283); g.fill(); g.globalAlpha = a; g.fillStyle = '#fff3cf';
+    g.beginPath(); g.moveTo(0, -r*3); g.quadraticCurveTo(0, 0, r*3, 0); g.quadraticCurveTo(0, 0, 0, r*3); g.quadraticCurveTo(0, 0, -r*3, 0); g.quadraticCurveTo(0, 0, 0, -r*3); g.fill(); g.restore();
+  }
+  function step(dt){
+    if (reduceMotion) return;
+    let petals = 0; for (const p of parts) if (p.k === 0) petals++;
+    if (petals < 14 && Math.random() < dt*2.2) parts.push(petal(Math.random()*w, -12));
+    if (parts.length - petals < 24 && Math.random() < dt*6) parts.push(spark(Math.random()*w, h*(.25 + Math.random()*.7)));
+    g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, w, h);
+    parts = parts.filter(p => {
+      if (p.k === 0){
+        p.sway += dt*1.3; p.vy += (p.term - p.vy)*dt*.8;
+        p.x += (p.vx + Math.sin(p.sway)*16)*dt; p.y += p.vy*dt; p.rot += p.vr*dt; p.flip += p.vf*dt;
+        drawPetal(p); return p.y < h + 24;
+      }
+      p.life += dt; p.x += p.vx*dt; p.y += p.vy*dt; drawSpark(p); return p.life < p.max;
+    });
+  }
+  return { resize, burst, step };
+})();
+
+/* ---------- Backup music: festive shehnai over a dhol in kaharwa, with a shruti drone and temple bells, in Raag Bhupali (synthesised).
+   Plays only if the song file below cannot load. ---------- */
+const Synth = (() => {
+  let ctx = null, master, dry, rev, bus, noise, sh, on = false, timer = null;
+  let t0 = 0, dStep = 0, mi = 0, mLoop = 0, fresh = true;
+  const BEAT = .6, STEP = BEAT/4;                       // 100 bpm on a 16th-note grid
+  const F = { P_:220, D_:246.94, S:293.66, R:329.63, G:369.99, P:440, D:493.88, S2:587.33, R2:659.26, G2:739.99, P2:880 };
+  const UP = { P_:'D_', D_:'S', S:'R', R:'G', G:'P', P:'D', D:'S2', S2:'R2', R2:'G2', G2:'P2' };
+  /* Shehnai phrases, two bars each: [swar, beats, ornament]; k = kan (grace from the swar above), m = meend (slow glide in) */
+  const PHRASES = [
+    [['G',1.5,'k'],['P',.5],['D',1],['S2',1,'m'],  ['D',.5],['P',.5],['G',1],['R',1],['S',1]],
+    [['G',1.5,'k'],['P',.5],['D',1],['S2',1,'m'],  ['R2',.5,'k'],['S2',.5],['D',1],['P',2]],
+    [['S2',.5],['S2',.5],['D',.5],['S2',.5],['R2',1,'k'],['G2',1,'m'],  ['R2',.5],['S2',.5],['D',.5],['P',.5],['G',1],['P',1]],
+    [['D',.5],['S2',.5],['R2',.5],['S2',.5],['D',1],['P',1,'k'],  ['G',.5],['R',.5],['G',.5],['P',.5],['G',1],['R',1]],
+    [['S',1,'m'],['R',.5],['G',.5],['P',1],['D',1,'k'],  ['P',.5],['G',.5],['R',.5],['G',.5],['S',2,'m']],
+    [['P_',1],['D_',.5],['S',.5],['R',1,'k'],['G',1],  ['R',.5],['S',.5],['D_',.5],['S',.5],['R',2,'m']],
+    [['G',.5],['P',.5],['D',.5],['P',.5],['G',1],['R',.5],['G',.5],  ['R',.5],['S',.5],['D_',1],['S',2,'m']]
+  ];
+  const LOOP = 64;                                       // 16 bars: dhol alone, seven phrases, dhol alone
+  const MEL = [];
+  PHRASES.reduce((b0, ph) => ph.reduce((b, [n, d, o], i) => { MEL.push({ n, b, d, o, br: i === ph.length - 1 }); return b + d; }, b0), 4);
+  /* Dhol bars on a 16-step grid: b = dagga (bass head), t = tilli (stick side); a fill closes every other phrase */
+  const MAIN = { b:{0:1, 2:.45, 12:.85}, t:{0:.7, 4:.8, 6:.4, 8:.75, 10:.3, 11:.25, 12:.6, 14:.7} };
+  const ALT  = { b:{0:1, 2:.45, 7:.35, 12:.85, 13:.4}, t:{0:.7, 4:.8, 6:.4, 8:.75, 10:.3, 12:.6, 14:.7, 15:.3} };
+  const FILL = { b:{0:1, 2:.5, 6:.6, 12:.5, 14:.7}, t:{0:.7, 4:.8, 6:.5, 8:.6, 9:.55, 10:.65, 11:.7, 12:.75, 13:.8, 14:.9, 15:1} };
+  const DHOL = [MAIN, ALT, FILL, MAIN], JHANJ = { 2:.5, 6:.5, 10:.5, 14:.5 };
+
+  function impulse(sec, decay){
+    const len = Math.floor(ctx.sampleRate*sec), buf = ctx.createBuffer(2, len, ctx.sampleRate);
+    for (let c = 0; c < 2; c++){ const d = buf.getChannelData(c); for (let i = 0; i < len; i++) d[i] = (Math.random()*2 - 1) * Math.pow(1 - i/len, decay); }
+    return buf;
+  }
+  function noiseBuf(){
+    const n = ctx.sampleRate, buf = ctx.createBuffer(1, n, n), d = buf.getChannelData(0);
+    for (let i = 0; i < n; i++) d[i] = Math.random()*2 - 1;
+    return buf;
+  }
+  const biq = (type, freq, q, gain) => { const f = ctx.createBiquadFilter(); f.type = type; f.frequency.value = freq; f.Q.value = q; if (gain) f.gain.value = gain; return f; };
+  const mkBus = (level, send) => { const g = ctx.createGain(), s = ctx.createGain(); g.gain.value = level; s.gain.value = send; g.connect(dry); g.connect(s); s.connect(rev); return g; };
+
+  function init(){
+    const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return false;
+    try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}   // iPhone: play even with the silent switch on
+    try {
+      ctx = new AC();
+      const comp = ctx.createDynamicsCompressor();
+      comp.threshold.value = -14; comp.knee.value = 12; comp.ratio.value = 3; comp.attack.value = .004; comp.release.value = .25;
+      comp.connect(ctx.destination);
+      master = ctx.createGain(); master.gain.value = 0; master.connect(comp);
+      dry = ctx.createGain(); dry.gain.value = .85; dry.connect(master);
+      rev = ctx.createConvolver(); rev.buffer = impulse(2.8, 2.6);
+      const wet = ctx.createGain(); wet.gain.value = .32; rev.connect(wet); wet.connect(master);
+      noise = noiseBuf();
+      bus = { sh: mkBus(1, .45), dhol: mkBus(.85, .1), perc: mkBus(.7, .2), drone: mkBus(1, .35), bell: mkBus(1, .8) };
+      drone(); sh = shehnai();
+      return true;
+    } catch (e) { ctx = null; return false; }
+  }
+
+  /* Shruti drone: Sa, Pa and upper Sa on reeds, breathing slowly like bellows */
+  function drone(){
+    const lp = biq('lowpass', 1100, .6), g = ctx.createGain(); g.gain.value = 1; lp.connect(g); g.connect(bus.drone);
+    const lfo = ctx.createOscillator(), lg = ctx.createGain(); lfo.frequency.value = .17; lg.gain.value = .22; lfo.connect(lg); lg.connect(g.gain); lfo.start();
+    [[146.83, .022], [220, .014], [293.66, .009]].forEach(([f, a]) => {
+      const o = ctx.createOscillator(), og = ctx.createGain();
+      o.type = 'sawtooth'; o.frequency.value = f; o.detune.value = (Math.random() - .5)*5; og.gain.value = a;
+      o.connect(og); og.connect(lp); o.start();
+    });
+  }
+
+  /* Shehnai: one continuous reed voice, so notes can glide into each other; nasal formants, breath and vibrato */
+  function shehnai(){
+    const A = [0,.55,.9,1,.85,.8,.62,.55,.42,.36,.28,.24,.18,.15,.12,.1,.08,.07,.06,.05,.04,.035,.03,.025];
+    const wave = ctx.createPeriodicWave(new Float32Array(A.length), Float32Array.from(A));
+    const amp = ctx.createGain(); amp.gain.value = 0; amp.connect(bus.sh);
+    const hp = biq('highpass', 380, .7), f1 = biq('peaking', 1150, 1.4, 7), f2 = biq('peaking', 2900, 2.2, 5), lp = biq('lowpass', 5600, .7);
+    hp.connect(f1); f1.connect(f2); f2.connect(lp); lp.connect(amp);
+    const vib = ctx.createOscillator(), depth = ctx.createGain(); vib.frequency.value = 5.3; depth.gain.value = 0; vib.connect(depth); vib.start();
+    const freqs = [[0, 1], [7, .3]].map(([cents, g]) => {
+      const o = ctx.createOscillator(), og = ctx.createGain();
+      o.setPeriodicWave(wave); o.frequency.value = F.G; o.detune.value = cents; og.gain.value = g;
+      depth.connect(o.detune); o.connect(og); og.connect(hp); o.start();
+      return o.frequency;
+    });
+    const air = ctx.createBufferSource(), af = biq('bandpass', 3000, .9), ag = ctx.createGain();
+    air.buffer = noise; air.loop = true; ag.gain.value = .05; air.connect(af); af.connect(ag); ag.connect(lp); air.start();
+    return { freqs, amp: amp.gain, vib: depth.gain };
+  }
+  /* Each note writes explicit points in time order; st holds where the last note left pitch, breath and vibrato */
+  let st = { f: F.G, amp: 0, vib: 0 };
+  function blow(e, t, attack, prevN){
+    const f = F[e.n], L = f > 600 ? .062 : .072, dur = e.d*BEAT, A = sh.amp, V = sh.vib;
+    const fr = fn => sh.freqs.forEach(fn);
+    if (e.o === 'k'){                                     // kan: flick from the swar above
+      const up = F[UP[e.n]];
+      if (attack) fr(p => p.setValueAtTime(up, t - .02));
+      else fr(p => { p.setValueAtTime(st.f, t - .03); p.exponentialRampToValueAtTime(up, t - .005); });
+      fr(p => { p.setValueAtTime(up, t + .05); p.exponentialRampToValueAtTime(f, t + .09); });
+    } else {                                              // legato slide, slower for meend, a small scoop on a fresh breath
+      const slow = e.o === 'm';
+      fr(p => { p.setValueAtTime(attack ? f*(slow ? .9 : .94) : st.f, t - (attack ? .02 : .03));
+                p.exponentialRampToValueAtTime(f, t + (slow ? .24 : attack ? .06 : .02)); });
+    }
+    st.f = f;
+    if (attack){ A.setValueAtTime(0, t); A.linearRampToValueAtTime(L, t + .05); }
+    else { A.setValueAtTime(st.amp, t - .04); A.linearRampToValueAtTime(L*(e.n === prevN ? .3 : .65), t - .008); A.linearRampToValueAtTime(L, t + .03); }
+    let lvl = L;
+    if (dur > 1){ lvl = L*1.12; A.linearRampToValueAtTime(lvl, t + dur - .25); }   // long notes swell
+    if (e.br){ A.setValueAtTime(lvl, t + dur - .14); A.linearRampToValueAtTime(0, t + dur - .03); lvl = 0; }   // breath at phrase end
+    st.amp = lvl;
+    if (st.vib){ V.setValueAtTime(st.vib, t - .05); V.linearRampToValueAtTime(0, t); }
+    st.vib = 0;
+    if (dur > .5){ V.setValueAtTime(0, t + .2); V.linearRampToValueAtTime(15, t + .5); st.vib = 15; }   // vibrato settles in
+  }
+
+  /* Dhol, jhanj and bells: short one-shot voices */
+  function env(g, t, peak, dec){ g.gain.setValueAtTime(.0001, t); g.gain.exponentialRampToValueAtTime(peak, t + .004); g.gain.exponentialRampToValueAtTime(.0001, t + dec); }
+  function tone(type, f0, f1, t, peak, dec, out){
+    const o = ctx.createOscillator(), g = ctx.createGain(); o.type = type;
+    o.frequency.setValueAtTime(f0, t); if (f1 !== f0) o.frequency.exponentialRampToValueAtTime(f1, t + dec*.3);
+    env(g, t, peak, dec); o.connect(g); g.connect(out); o.start(t); o.stop(t + dec + .05);
+  }
+  function hiss(t, type, freq, q, peak, dec, out){
+    const s = ctx.createBufferSource(), f = biq(type, freq, q), g = ctx.createGain();
+    s.buffer = noise; env(g, t, peak, dec); s.connect(f); f.connect(g); g.connect(out);
+    s.start(t, Math.random()*.5); s.stop(t + dec + .05);
+  }
+  const dagga = (t, v) => { tone('sine', 130, 62, t, .5*v, .5, bus.dhol); tone('triangle', 250, 150, t, .13*v, .16, bus.dhol); hiss(t, 'lowpass', 800, .7, .2*v, .03, bus.dhol); };
+  const tilli = (t, v) => { const d = v < .35 ? .04 : .09; hiss(t, 'bandpass', 2400, 1.1, .55*v, d, bus.dhol); tone('triangle', 560, 470, t, .07*v, d + .04, bus.dhol); };
+  const jhanj = (t, v) => { hiss(t, 'highpass', 7000, .7, .08*v, .16, bus.perc); tone('sine', 3150, 3150, t, .012*v, .2, bus.perc); tone('sine', 4730, 4730, t, .008*v, .14, bus.perc); };
+  function bell(f, t, gain){
+    [[1,1],[2,.5],[2.76,.45],[4.07,.25],[5.4,.18]].forEach(([m, a]) => {
+      const osc = ctx.createOscillator(), g = ctx.createGain(); osc.frequency.value = f*m;
+      g.gain.setValueAtTime(.0001, t); g.gain.exponentialRampToValueAtTime(gain*a, t + .006); g.gain.exponentialRampToValueAtTime(.0001, t + 3.8/(m*.6 + .4));
+      osc.connect(g); g.connect(bus.bell); osc.start(t); osc.stop(t + 4.2); });
+  }
+
+  function schedule(){
+    const ahead = ctx.currentTime + .3;
+    for (let t = t0 + dStep*STEP; t < ahead; t = t0 + (++dStep)*STEP){
+      const s = dStep % 16, P = DHOL[(dStep >> 4) % DHOL.length];
+      if (P.b[s]) dagga(t, P.b[s]);
+      if (P.t[s]) tilli(t, P.t[s]);
+      if (JHANJ[s]) jhanj(t, JHANJ[s]);
+    }
+    for (let t = t0 + (mLoop*LOOP + MEL[mi].b)*BEAT; t < ahead; t = t0 + (mLoop*LOOP + MEL[mi].b)*BEAT){
+      const e = MEL[mi], p = MEL[(mi || MEL.length) - 1];
+      blow(e, t, fresh || p.br, p.n); fresh = false;
+      if (++mi === MEL.length){ mi = 0; mLoop++; }
+    }
+  }
+  /* (Re)start the piece from its first bar, `delay` seconds from now */
+  function run(delay){
+    clearInterval(timer);
+    const n = ctx.currentTime; t0 = n + delay; dStep = mi = mLoop = 0; fresh = true;
+    sh.freqs.forEach(p => { p.cancelScheduledValues(n); p.setValueAtTime(F.G, n); });
+    [sh.amp, sh.vib].forEach(p => { p.cancelScheduledValues(n); p.setValueAtTime(0, n); });
+    st = { f: F.G, amp: 0, vib: 0 };
+    timer = setInterval(schedule, 40); schedule();
+  }
+  function start(){
+    if (!ctx && !init()) return false;
+    if (ctx.state === 'suspended') ctx.resume();
+    on = true; const t = ctx.currentTime;
+    master.gain.cancelScheduledValues(t); master.gain.setValueAtTime(0, t); master.gain.linearRampToValueAtTime(.9, t + 1.6);
+    [587.33, 880, 1174.66].forEach((f, i) => bell(f, t + .15 + i*.28, .035));
+    run(1.4);
+    return true;
+  }
+  function setOn(v){
+    if (!ctx) { if (v) start(); return on; }
+    on = v; const t = ctx.currentTime;
+    if (v){ ctx.resume().then(() => { if (!on) return; const n = ctx.currentTime; master.gain.cancelScheduledValues(n); master.gain.setValueAtTime(0, n); master.gain.linearRampToValueAtTime(.9, n + .8); run(.25); }); }
+    else { master.gain.cancelScheduledValues(t); master.gain.setValueAtTime(master.gain.value, t); master.gain.linearRampToValueAtTime(0, t + .3); clearInterval(timer); setTimeout(() => { if (!on) ctx.suspend(); }, 400); }
+    return on;
+  }
+  function chime(i){ if (!ctx || !on) return; bell([587.33, 880, 659.26][i % 3], ctx.currentTime + .05, .018); }
+  document.addEventListener('visibilitychange', () => {
+    if (!ctx || !on) return;
+    if (document.hidden){ clearInterval(timer); ctx.suspend(); } else { ctx.resume().then(() => { if (on && !document.hidden) run(.25); }); }
+  });
+  return { start, setOn, chime, get on(){ return on; }, get ok(){ return !!(window.AudioContext || window.webkitAudioContext); } };
+})();
+
+/* ---------- Music: the couple's chosen song (music.mp3, published beside this page) ---------- */
+const Sound = (() => {
+  const song = document.getElementById('song'), VOL = .9;
+  let mode = null, on = false, fadeT = null;            // mode: 'song' once started, 'synth' if the song can't play
+  const canFade = (() => { try { song.volume = .5; const ok = Math.abs(song.volume - .5) < .01; song.volume = 1; return ok; } catch (e) { return false; } })();   // iPhones ignore volume
+  function fade(to, ms, done){
+    clearInterval(fadeT);
+    if (!canFade || ms <= 0){ try { song.volume = canFade ? to : 1; } catch (e) {} if (done) done(); return; }
+    const from = song.volume, t0 = performance.now();
+    fadeT = setInterval(() => {
+      const k = Math.min(1, (performance.now() - t0)/ms); song.volume = from + (to - from)*k;
+      if (k === 1){ clearInterval(fadeT); if (done) done(); }
+    }, 30);
+  }
+  function useSynth(){
+    if (mode === 'synth') return;
+    const wasPlaying = mode === 'song' && on; mode = 'synth'; clearInterval(fadeT);
+    try { song.pause(); } catch (e) {}
+    if (wasPlaying){ Synth.start(); labelControls(); }
+  }
+  function play(){
+    const p = song.play();
+    if (p && p.catch) p.catch(err => {
+      if (err && err.name === 'NotAllowedError'){ on = false; labelControls(); }   // browser wants a tap first: show it as muted
+      else if (!err || err.name !== 'AbortError') useSynth();
+    });
+  }
+  song.addEventListener('error', useSynth);
+  function prepare(){ if (mode !== 'synth' && song.preload !== 'auto'){ song.preload = 'auto'; try { song.load(); } catch (e) {} } }
+  function start(){
+    on = true;
+    if (mode === 'synth') return Synth.start();
+    mode = 'song';
+    try { song.currentTime = 0; } catch (e) {}
+    fade(0, 0); play(); fade(VOL, 2000);
+    return true;
+  }
+  function setOn(v){
+    if (mode === 'synth'){ Synth.setOn(v); on = Synth.on; return on; }
+    if (!mode){ if (v) start(); return on; }
+    on = v;
+    if (v){ fade(0, 0); play(); fade(VOL, 800); }
+    else fade(0, 300, () => { if (!on) song.pause(); });
+    return on;
+  }
+  function chime(i){ if (mode === 'synth') Synth.chime(i); }
+  document.addEventListener('visibilitychange', () => {
+    if (mode !== 'song' || !on) return;
+    if (document.hidden) song.pause(); else play();
+  });
+  return { start, setOn, chime, prepare, get on(){ return mode === 'synth' ? Synth.on : on; }, get ok(){ return true; } };
+})();
+
+/* ---------- Story engine ---------- */
+let scenes = [], segs = [];
+let cur = -1, elapsed = 0, playing = true, holding = false, overlayOpen = false, langOpen = true, started = false, hookTimer = null;
+const blocked = () => holding || overlayOpen || langOpen;
+
+function syncPaused(){ stage.classList.toggle('is-paused', !playing || blocked()); }
+function go(i, silent){
+  i = Math.max(0, Math.min(scenes.length - 1, i));
+  clearTimeout(hookTimer);
+  scenes.forEach((s, k) => {
+    if (k === i){ s.classList.remove('active'); void s.offsetWidth; s.classList.add('active'); }
+    else s.classList.remove('active');
+    s.setAttribute('aria-hidden', k === i ? 'false' : 'true');
+  });
+  cur = i; elapsed = 0;
+  segs.forEach((f, k) => { f.style.width = k < i ? '100%' : '0%'; });
+  if (scenes[i].dataset.hook === 'names') hookTimer = setTimeout(() => FX.burst(54), 4300);
+  if (scenes[i].hasAttribute('data-final')) hookTimer = setTimeout(() => FX.burst(30), 1800);
+  if (!silent) Sound.chime(i);
+}
+const next = () => { if (cur < scenes.length - 1) go(cur + 1); };
+const prev = () => go(cur > 0 ? cur - 1 : 0);
+function update(dt){
+  if (!started || !playing || blocked() || cur < 0) return;
+  const s = scenes[cur], dur = (parseFloat(s.dataset.dur) || 8) + SLIDE_EXTRA;
+  elapsed += dt;
+  const p = Math.min(1, elapsed / dur);
+  segs[cur].style.width = (p*100).toFixed(2) + '%';
+  if (p >= 1 && !s.hasAttribute('data-final')) next();
+}
+
+/* ---------- Language ---------- */
+let LANG = 'en', chosen = false;
+const T = () => I18N[LANG];
+
+function labelControls(){
+  const L = T(), on = Sound.on, sb = $('#soundBtn'), pb = $('#pauseBtn');
+  sb.innerHTML = `<svg><use href="#ic-${on ? 'sound' : 'mute'}"/></svg>`;
+  sb.setAttribute('aria-pressed', on ? 'true' : 'false'); sb.setAttribute('aria-label', on ? L.ui.mute : L.ui.unmute);
+  pb.innerHTML = `<svg><use href="#ic-${playing ? 'pause' : 'play'}"/></svg>`; pb.setAttribute('aria-label', playing ? L.ui.pause : L.ui.play);
+  $('#schedBtn').setAttribute('aria-label', L.ui.all);
+  $('#langBtn').setAttribute('aria-label', L.ui.lang);
+  $('#schedClose').setAttribute('aria-label', L.ui.close);
+  $('#langClose').setAttribute('aria-label', L.ui.close);
+}
+function setLang(code){
+  const L = I18N[code]; LANG = code;
+  stage.classList.toggle('is-latin', isLatin(L)); stage.classList.toggle('is-indic', !isLatin(L));
+  stage.dataset.script = L.script; stage.lang = L.html; document.documentElement.lang = L.html;
+  stage.setAttribute('aria-label', L.ui.invitation);
+  $('#cover').innerHTML = coverHTML(L, true);
+  $$('.door-art .cover-flow').forEach(el => { el.innerHTML = coverHTML(L, false); });
+  $('#scenes').innerHTML = scenesHTML(L);
+  $('#schedTitle').textContent = L.ui.sched;
+  $('#schedBody').innerHTML = schedHTML(L);
+  $('#hint').textContent = L.ui.hint;
+  scenes = $$('.scene');
+  $('#progress').innerHTML = scenes.map(() => '<span class="seg"><i></i></span>').join('');
+  segs = $$('.seg i');
+  labelControls(); tickCountdown();
+}
+
+const langEl = $('#lang'), promptEl = $('#langPrompt');
+const PROMPTS = ['hi','bn','gu','mwr','awa'].map(c => I18N[c]);
+let promptTimer = null, promptSwap = null, pi = 0, picking = false, doorsReadyAt = 0;
+function showPrompt(L){ promptEl.textContent = L.prompt; promptEl.dataset.script = L.script; promptEl.lang = L.html; }
+function startPrompts(){
+  clearInterval(promptTimer); clearTimeout(promptSwap); promptEl.classList.remove('swap');
+  pi = 0; showPrompt(PROMPTS[0]);
+  if (reduceMotion) return;
+  promptTimer = setInterval(() => {
+    promptEl.classList.add('swap');
+    promptSwap = setTimeout(() => { pi = (pi + 1) % PROMPTS.length; showPrompt(PROMPTS[pi]); promptEl.classList.remove('swap'); }, 450);
+  }, 2600);
+}
+function openLang(){
+  langOpen = true; picking = false;
+  langEl.hidden = false; langEl.classList.remove('out'); langEl.classList.add('modal');
+  $$('.lang-btn').forEach(b => { b.classList.remove('picked'); b.classList.toggle('is-current', b.dataset.lang === LANG); });
+  startPrompts(); syncPaused();
+  const curBtn = $(`.lang-btn[data-lang="${LANG}"]`); if (curBtn) curBtn.focus({ preventScroll:true });
+}
+function closeLang(){
+  langOpen = false; langEl.classList.add('out');
+  clearInterval(promptTimer); clearTimeout(promptSwap);
+  setTimeout(() => { if (!langOpen) langEl.hidden = true; }, 520);
+  syncPaused();
+}
+function pick(code){
+  const first = !chosen;
+  chosen = true; doorsReadyAt = performance.now() + 700;
+  setLang(code);
+  closeLang();
+  if (first && pendingScene !== null){
+    opened = true; doors.hidden = true; labelControls();
+    beginStory(Math.min(scenes.length - 1, pendingScene), true);
+  } else if (!opened){
+    doors.classList.remove('await');
+    setTimeout(() => { const b = $('#openBtn'); if (b) b.focus({ preventScroll:true }); }, 450);
+  } else {
+    if (started) go(cur, true);
+    $('#langBtn').focus({ preventScroll:true });
+  }
+}
+langEl.addEventListener('click', e => {
+  const b = e.target.closest('.lang-btn');
+  if (!b || picking) return;
+  picking = true; b.classList.add('picked');
+  Sound.prepare();                                       // start buffering the song while the guest reads the cover
+  setTimeout(() => pick(b.dataset.lang), reduceMotion ? 0 : 260);
+});
+$('#langClose').addEventListener('click', () => { closeLang(); $('#langBtn').focus({ preventScroll:true }); });
+$('#langBtn').addEventListener('click', openLang);
+
+/* ---------- Opening the doors ---------- */
+let opened = false;
+function beginStory(i, silent){
+  started = true; stage.classList.add('started', 'show-hint'); go(i, silent);
+}
+function openDoors(){
+  if (opened || !chosen || performance.now() < doorsReadyAt) return; opened = true;
+  Sound.start(); labelControls();
+  doors.classList.add('open');
+  setTimeout(() => FX.burst(34), 500);
+  setTimeout(() => beginStory(0, true), 1100);
+  setTimeout(() => { doors.hidden = true; }, 2700);
+}
+doors.addEventListener('click', e => {
+  if (e.target.closest('#coverLang')){ e.stopPropagation(); openLang(); return; }
+  openDoors();
+});
+if (!Sound.ok) $('#soundBtn').hidden = true;
+
+/* ---------- Controls ---------- */
+$('#soundBtn').addEventListener('click', () => { Sound.setOn(!Sound.on); labelControls(); });
+function setPlaying(v){ playing = v; syncPaused(); labelControls(); }
+$('#pauseBtn').addEventListener('click', () => setPlaying(!playing));
+const sched = $('#sched');
+function openSched(){ overlayOpen = true; sched.hidden = false; sched.scrollTop = 0; syncPaused(); $('#schedClose').focus(); }
+function closeSched(){ overlayOpen = false; sched.hidden = true; syncPaused(); }
+$('#schedBtn').addEventListener('click', openSched);
+$('#schedClose').addEventListener('click', closeSched);
+$('#scenes').addEventListener('click', e => {
+  const b = e.target.closest('[data-act]'); if (!b) return;
+  if (b.dataset.act === 'replay'){ setPlaying(true); go(0); }
+  else if (b.dataset.act === 'sched') openSched();
+});
+
+/* Tap left third = back, elsewhere = next; press and hold = pause */
+let downAt = 0, downX = 0, holdT = null, wasHold = false;
+stage.addEventListener('pointerdown', e => {
+  if (!started || e.button > 0 || e.target.closest('a,button,.overlay,.controls,.lang')) { downAt = 0; return; }
+  downAt = performance.now(); downX = e.clientX; wasHold = false;
+  clearTimeout(holdT); holdT = setTimeout(() => { holding = true; wasHold = true; syncPaused(); }, 260);
+});
+function release(cancel){
+  if (!downAt) return;
+  clearTimeout(holdT);
+  if (!wasHold && !cancel){ const r = stage.getBoundingClientRect(); ((downX - r.left) / r.width < .3) ? prev() : next(); }
+  holding = false; downAt = 0; syncPaused();
+}
+window.addEventListener('pointerup', () => release(false));
+window.addEventListener('pointercancel', () => release(true));
+stage.addEventListener('contextmenu', e => { if (started) e.preventDefault(); });
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape'){
+    if (langOpen && chosen){ closeLang(); return; }
+    if (overlayOpen){ closeSched(); return; }
+  }
+  if (langOpen) return;
+  const onControl = e.target.closest && e.target.closest('button,a');
+  if (!opened){ if ((e.key === 'Enter' || e.key === ' ') && !onControl){ e.preventDefault(); openDoors(); } return; }
+  if (overlayOpen || !started) return;
+  if (onControl && (e.key === ' ' || e.key === 'Enter')) return;
+  if (e.key === 'ArrowRight'){ next(); }
+  else if (e.key === 'ArrowLeft'){ prev(); }
+  else if (e.key === ' '){ e.preventDefault(); setPlaying(!playing); }
+  else if (e.key === 'm' || e.key === 'M'){ Sound.setOn(!Sound.on); labelControls(); }
+});
+document.addEventListener('visibilitychange', () => { if (document.hidden && started) setPlaying(false); });
+
+/* ---------- Layout ---------- */
+function layout(){
+  const r = stage.getBoundingClientRect();
+  if (!r.width || !r.height) return;
+  W = Math.round(r.width); H = Math.round(r.height); U = Math.min(W / 100, H * .5625 / 100);
+  stage.style.setProperty('--u', U.toFixed(3) + 'px');
+  buildFrame(); buildToran(); buildDoorArt(); FX.resize();
+}
+let raf = 0;
+const onResize = () => { cancelAnimationFrame(raf); raf = requestAnimationFrame(layout); };
+if ('ResizeObserver' in window) new ResizeObserver(onResize).observe(stage); else window.addEventListener('resize', onResize);
+
+/* ---------- Start: write a default language behind the plaque, then ask the guest ---------- */
+setLang('en');
+layout();
+startPrompts();
+
+let last = performance.now();
+function frame(now){
+  const dt = Math.min(.05, (now - last) / 1000); last = now;
+  update(dt); FX.step(dt);
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+/* Direct link to a scene, e.g. #scene-3 (the language is still asked first) */
+const m = /^#scene-(\d+)$/.exec(location.hash);
+const pendingScene = m ? Math.max(0, Math.min(scenes.length, +m[1]) - 1) : null;
+})();
+</script>
